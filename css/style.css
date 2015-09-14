@@ -1,0 +1,58 @@
+header
+{
+	background-color: black;
+	color: white;
+	/*padding-right: 20px;
+	padding-left: 60px;*/
+}
+
+h1
+{
+	font-size: 2em;
+}
+
+h2
+{
+	font-size: 1.8em
+}
+
+span
+{
+	color: #FFFF00;
+	font-size: 2em;
+}
+
+.header-right
+{
+	text-align: center;
+}
+
+.navbar
+{
+	background-color: black;
+	border: none;
+	border-radius: 0px;
+	padding-right: 40px;
+}
+
+.navbar-brand
+{
+	display: none;
+}
+
+.navbar .nav.pull-right 
+{
+    float: right;
+}
+
+.navbar-default .navbar-nav > li > a /* changement couleur de la navbar bootstrap */
+{
+	color: white;
+}
+
+#topnavbar.affix
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
