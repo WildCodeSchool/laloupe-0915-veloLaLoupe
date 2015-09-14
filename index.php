@@ -5,6 +5,7 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -231,6 +232,11 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		v
 		v
+
+	
+	<?php
+		include('includes/footer.php');
+	?>	
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
