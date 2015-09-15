@@ -5,6 +5,7 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -240,6 +241,8 @@
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script>
       $('#topnavbar').affix({
           offset: 15

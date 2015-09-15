@@ -8,7 +8,27 @@
 		<div class="row">
 			<div class="col-md-8">
 				<h3 class="titre-classique"><span>Nos Partenaires</span></h3>
-			</div>
+					<div class="carouselFooter">
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/1" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/2" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/3" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/4" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/5" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/6" width="100%" />
+						</div>
+					</div>
+				</div>
 			<div class="col-md-3 col-md-offset-1 contactez-nous">
 				
 				<div class="row">
