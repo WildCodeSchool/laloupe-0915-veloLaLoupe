@@ -76,19 +76,19 @@
 	</div>
 
 	<section>
-		<!-- welcome-box -->
+		<!-- bienvenue -->
 		<div class="bienvenue">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="text-center">Bienvenue chez <span>KM120.CYCLE</span></h2>
-						<p class="text-center">We’re an interactive agency specialising in lean UX and intelligent product and identity design</p>
+						<h2 class="text-center">Bienvenue chez <span>KM120.CYCLE</span><br />
+						<small>We’re an interactive agency specialising in lean UX and intelligent product and identity design</small></h2>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- services-box -->
+		<!-- bandeau-promo -->
 			<div class="bandeau-promo">
 				<div class="container">
 
