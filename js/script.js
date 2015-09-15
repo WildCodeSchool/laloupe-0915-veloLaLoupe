@@ -1,4 +1,4 @@
-$(function($) {
+$(document).ready(function() {
 
 	$('.carouselFooter').owlCarousel({
 		items: 4,
@@ -8,5 +8,10 @@ $(function($) {
 		loop: true
 	});
 
+	$('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
 
-})(jQuery);
+
+});
