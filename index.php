@@ -52,9 +52,45 @@
 	</header>
 
 	<section>
-		<div class="container">
-			
+		<!-- welcome-box -->
+		<div class="bienvenue">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="text-center">Bienvenue chez <span>KM120.CYCLE</span></h2>
+						<p class="text-center">We’re an interactive agency specialising in lean UX and intelligent product and identity design</p>
+					</div>
+				</div>
+			</div>
 		</div>
+
+		<!-- services-box -->
+			<div class="bandeau-promo">
+				<div class="container">
+
+					<div class="carouselFooter">
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/1" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/2" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/3" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/4" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/5" width="100%" />
+						</div>
+						<div class="item">
+							<img src="http://lorempicsum.com/futurama/600/400/6" width="100%" />
+						</div>
+					</div>
+				</div>
+				<img class="shadow-image" alt="" src="images/shadow.png">
+			</div>
 	</section>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
