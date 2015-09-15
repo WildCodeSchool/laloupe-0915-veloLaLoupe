@@ -77,38 +77,55 @@
 
 	<section>
 		<!-- bienvenue -->
-		<div class="bienvenue">
-			<div class="container">
+		<div class="container">
 
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="text-center">Bienvenue chez <span>KM120.CYCLE</span><br />
-						<small>We’re an interactive agency specialising in lean UX and intelligent product and identity design</small></h2>
-					</div>
+			<div class="row bienvenue">
+				<div class="col-md-12">
+					<h2 class="text-center">Bienvenue chez <span>KM120.CYCLE</span><br />
+					<small>Réparations, ventes, entretien et gardiennage de votre vélo</small></h2>
 				</div>
+			</div>
 
-				<div class="row">
-					<div class="col-md-6">
-						<h3 class="titre-classique"><span>Le vélo un état d'esprit<span></h3>
-						<p>
-							La vente de vélos et d'accessoires pour tout âge, l'entretien et la réparation, ainsi que des conseils personnalisés autour du vélo et de son utilisation.
+			<div class="row">
+				<div class="col-md-7">
+					<h3 class="titre-classique"><span>Un professionnel à votre service</span></h3>
+					<p>
+						La vente de vélos et d'accessoires pour tout âge, l'entretien et la réparation, ainsi que des conseils personnalisés autour du vélo et de son utilisation.
 							La qualité du service et des produits, le souci de la satisfaction de la clientèle, sont les principes essentiels de mon engagement.
 							Aussi je mets à votre disposition mon expérience, afin de vous proposer des produits de qualité, pour répondre à vos besoins et attentes.
-						</p>
+					</p>
+
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="list-unstyled">
+								<li>test</li>
+								<li>test</li>
+								<li>test</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<ul class="list-unstyled">
+								<li>test</li>
+								<li>test</li>
+								<li>test</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-5 col-md-offset-1">
-							<img src="images/devanture.jpg" class="img-responsive img-rounded" alt="Devanture">
-					</div>
+
 				</div>
-
-				
-
+				<div class="col-md-5">
+						<img src="images/devanture.jpg" class="img-responsive img-rounded" alt="Devanture">
+				</div>
 			</div>
 		</div>
 	</section>
 
+	<div class="container">
+		<hr>
+	</div>
+
 	<section>
-		<div class="notre-magasin">
+		<div class="accueil">
 			<div class="container">	
 
 				<div class="row">

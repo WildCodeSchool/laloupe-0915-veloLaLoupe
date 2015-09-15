@@ -1,6 +1,8 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F0F0F0 100%);
+	background-color: #B2B2B2;
+	color: #292929;
+	font-weight: 300;
 }
 header
 {
@@ -28,11 +30,11 @@ h2 span
 	font-weight: 400;
 	color: #FFFF00;
 }
-h3 {
-	font-weight: 300; 
-}
 p {
-	font-size: 1em;
+	font-size: 1.2em;
+}
+ul {
+	font-size: 1.2em;
 }
 
 .titre-classique {
@@ -83,23 +85,13 @@ p {
 	top: 0;
 	width: 100%;
 }
-
-.bandeau-promo {
-    position: relative;
-    padding: 40px 0;
-    border-bottom: 1px solid #d3d3d3;
-    background-color: #FFFF00;
-}
-.shadow-image {
-    position: absolute;
-    left: 50%;
-    margin-left: -544px;
-    bottom: -51px;
-}
 .bienvenue {
 	
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
+}
+.accueil {
+	padding-top: 30px;
 }
 
 /*------------------------------------*\
@@ -112,6 +104,9 @@ footer, footer a {
 	footer i {
 		padding-right: 10px;
 		color: #FFFF00;
+	}
+	footer p {
+		font-size: 1em;
 	}
 
 .top-footer {
