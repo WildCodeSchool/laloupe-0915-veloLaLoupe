@@ -31,6 +31,11 @@ p {
 	font-size: 1em;
 }
 
+section
+{
+	padding: 20px;
+}
+
 .titre-classique {
 	margin-bottom: 16px;
 	padding-bottom: 8px;
