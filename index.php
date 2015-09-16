@@ -1,6 +1,7 @@
 <?php
 	include('includes/header.php');
 ?>
+<div class="container-fluid">
 	<div id="carousel-example-generic" class="carousel slide vertical" data-ride="carousel">
 		<!-- Wrapper for slides --> 
 		<div class="carousel-inner" role="listbox">
@@ -76,7 +77,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class='page-header page-header-with-icon'>
-	            <i class='fa fa-map-marker'></i><h3>Nous vous accueillons à La Loupe</h3>
+	            <i class='fa fa-map-marker'></i><h3>Notre magasin à La Loupe</h3>
 	          </div>
 	        </div>
       	</div>
@@ -201,7 +202,7 @@
 
 		</div>
 	</section>
-
+</div>
 	
 <?php
 	include('includes/footer.php');

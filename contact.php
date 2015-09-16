@@ -61,13 +61,20 @@
             } 
 ?>
 
-	<section>
+	<section style="background-color: rgba(0, 0, 0, 0.9)">
     <div class="container">
+
+      <div class="row bienvenue">
+        <div class="col-md-12">
+          <h2 class="text-center">Contactez <span>KM120.CYCLE</span></h2>
+          <p class="sous-titre">En remplissant ce formulaire, nous vous répondrons dans les meilleurs délais</p>
+        </div>
+      </div>
 
       <div class="row">
         <div class="col-md-12">
           <div class='page-header page-header-with-icon'>
-                  <i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
+                  <i class='fa fa-envelope-o'></i><h3>Formulaire de contact</h3>
           </div>
         </div>
       </div>
@@ -105,7 +112,7 @@
         </div>
 
   			<div class="col-md-6">
-  				<div id="map" style="height:450px;" />
+  				<div id="map" class="thumbnail" style="height:450px;" />
   			</div>
   		</div>
     </div>
