@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,11 +45,11 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
-			        <li><a href="#">Accueil</a></li>
+			        <li><a href="index.php">Accueil</a></li>
 			        <li><a href="#">Atelier</a></li>
 			        <li><a href="#">Ventes</a></li>
-			        <li><a href="#">Qui suis-je</a></li>
-			        <li><a href="#">Contact</a></li>
+			        <li><a href="#">Promotions</a></li>
+			        <li><a href="contact.php">Contact</a></li>
 			       </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
