@@ -265,42 +265,16 @@
 		include('includes/footer.php');
 	?>	
 
+	
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
-	<script src="js/script2.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script>
-      $('#topnavbar').affix({
-          offset: 15
-      });
-	</script>
-
-	<script type="text/javascript">
-
-function initMap() {
-  var myLatLng = {lat: 48.473369, lng: 1.0117314999999962};
-
-  // Create a map object and specify the DOM element for display.
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: myLatLng,
-    scrollwheel: false,
-    zoom: 16
-  });
-
-  // Create a marker and set its position.
-  var marker = new google.maps.Marker({
-    map: map,
-    position: myLatLng,
-    title: 'KM120.CYCLE'
-  });
-}
-
-    </script>
-    <script async defer
+	<script defer async
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrfLAPBUol_8Q1iqV1b5YnfG9xUJbIefA&callback=initMap">
     </script>
+    
 
 
 </body>
