@@ -1,80 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta charset="UTF-8" />
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/owl.carousel.css" />
-	<link rel="stylesheet" href="css/flexslider.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
-</head>
-<body>
-
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2">
-					<h2><span>KM120</span><br />.CYCLES</h2>
-				</div>
-
-				<div class="col-md-6 col-md-offset-4 header-right">
-				<h3>Gérald MILTGEN</br />Réparation et ventes de vélos à La Loupe</h3>
-				</div>
-			</div>
-		</div>
-
-			<nav class="navbar navbar-default affix-top" role="navigation" id="topnavbar">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-		      		<a class="navbar-brand" href="#">Brand</a>
-			    </div>
-
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li><a href="#">Accueil</a></li>
-			        <li><a href="#">Atelier</a></li>
-			        <li><a href="#">Ventes</a></li>
-			        <li><a href="#">Qui suis-je</a></li>
-			        <li><a href="#">Contact</a></li>
-			       </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-	</header>
-
-	<div id="container">
-		<!-- slider -->
-		<div id="slider">
-			<div class="flexslider">
-				<ul class="slides">
-					<li>
-						<img alt="" src="upload/flexslider/1.jpg" />
-					</li>
-					<li>
-						<img alt="" src="upload/flexslider/2.jpg" />
-					</li>
-					<li>
-						<img alt="" src="upload/flexslider/3.jpg" />
-					</li>
-					<li>
-						<img alt="" src="upload/flexslider/4.jpg" />
-					</li>
-				</ul>
+<?php
+	include('includes/header.php');
+?>
+	<div id="carousel-example-generic" class="carousel slide vertical" data-ride="carousel">
+			  <!-- Wrapper for slides --> 
+		<div class="carousel-inner" role="listbox">
+		    <div class="item active photos">
+		      <img src="images/1.jpg" alt="...">
 		    </div>
-		</div>
-		<!-- End slider -->	
+		    <div class="item photos">
+		      <img src="images/2.jpg" alt="...">
+		    </div>
+		   	<div class="item photos">
+		      <img src="images/3.jpg" alt="...">
+		    </div>
 	</div>
-
+	
 	<section>
 		<!-- bienvenue -->
 		<div class="container">
@@ -85,6 +25,7 @@
 					<p class="sous-titre">Réparations, ventes, entretien et gardiennage de votre vélo</p>
 				</div>
 			</div>
+
 
 			<div class="row">
 				<div class="col-md-12">
@@ -256,14 +197,14 @@
 		      </div>                          
 		    </div>
 		  </div>
+
 		</div>
 	</section>
 
-
 	
-	<?php
-		include('includes/footer.php');
-	?>	
+<?php
+	include('includes/footer.php');
+?>	
 
 	
 	<script src="js/jquery.js"></script>
@@ -271,11 +212,25 @@
 	<script src="js/script.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
+
 	<script defer async
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrfLAPBUol_8Q1iqV1b5YnfG9xUJbIefA&callback=initMap">
-    </script>
+  </script>
     
 
+	<script>
+      	$('#topnavbar').affix({
+          	offset: 15
+      	});
+	</script>
 
-</body>
+	<script>
+		$('.carousel').carousel({
+   			interval: 5000
+   		});
+	</script>
+
+
+
+	</body>
 </html>
