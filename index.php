@@ -1,7 +1,20 @@
 <?php
 	include('includes/header.php');
 ?>
-
+	<div id="carousel-example-generic" class="carousel slide vertical" data-ride="carousel">
+			  <!-- Wrapper for slides --> 
+		<div class="carousel-inner" role="listbox">
+		    <div class="item active photos">
+		      <img src="images/1.jpg" alt="...">
+		    </div>
+		    <div class="item photos">
+		      <img src="images/2.jpg" alt="...">
+		    </div>
+		   	<div class="item photos">
+		      <img src="images/3.jpg" alt="...">
+		    </div>
+	</div>
+	
 	<section>
 		<!-- welcome-box -->
 		<div class="bienvenue">
