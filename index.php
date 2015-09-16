@@ -52,28 +52,8 @@
 			</nav>
 	</header>
 
-	<div id="container">
-		<!-- slider -->
-		<div id="slider">
-			<div class="flexslider">
-				<ul class="slides">
-					<li>
-						<img alt="" src="upload/flexslider/1.jpg" />
-					</li>
-					<li>
-						<img alt="" src="upload/flexslider/2.jpg" />
-					</li>
-					<li>
-						<img alt="" src="upload/flexslider/3.jpg" />
-					</li>
-					<li>
-						<img alt="" src="upload/flexslider/4.jpg" />
-					</li>
-				</ul>
-		    </div>
-		</div>
-		<!-- End slider -->	
-	</div>
+	<div id="carousel-example-generic" class="carousel slide vertical" data-ride="carousel">
+
 
 	<section>
 		<!-- welcome-box -->
@@ -87,37 +67,22 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- services-box -->
-			<div class="bandeau-promo">
-				<div class="container">
-
-					<div class="carouselFooter">
-						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/1" width="100%" />
-						</div>
-						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/2" width="100%" />
-						</div>
-						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/3" width="100%" />
-						</div>
-						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/4" width="100%" />
-						</div>
-						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/5" width="100%" />
-						</div>
-						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/6" width="100%" />
-						</div>
-					</div>
-				</div>
-				<img class="shadow-image" alt="" src="images/shadow.png">
-			</div>
 	</section>
 
->>>>>>> 87e795b8ac29f6c0784106dd16f52afe005c9b7c
+
+	  <!-- Wrapper for slides --> 
+	 <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="images/1.jpg" alt="...">
+	    </div>
+	    <div class="item">
+	      <img src="images/2.jpg" alt="...">
+	    </div>
+	   	<div class="item">
+	      <img src="images/3.jpg" alt="...">
+	    </div>
+	 </div>
+
 
 	
 	<?php
@@ -131,9 +96,15 @@
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script>
-      $('#topnavbar').affix({
-          offset: 15
-      });
+      	$('#topnavbar').affix({
+          	offset: 15
+      	});
+	</script>
+
+	<script>
+		$('.carousel').carousel({
+   			interval: 5000
+   		});
 	</script>
 
 
