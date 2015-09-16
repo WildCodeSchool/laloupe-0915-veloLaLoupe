@@ -2,17 +2,18 @@
 	include('includes/header.php');
 ?>
 	<div id="carousel-example-generic" class="carousel slide vertical" data-ride="carousel">
-			  <!-- Wrapper for slides --> 
+		<!-- Wrapper for slides --> 
 		<div class="carousel-inner" role="listbox">
-		    <div class="item active photos">
-		      <img src="images/1.jpg" alt="...">
-		    </div>
-		    <div class="item photos">
-		      <img src="images/2.jpg" alt="...">
-		    </div>
-		   	<div class="item photos">
-		      <img src="images/3.jpg" alt="...">
-		    </div>
+		  <div class="item active photos">
+		    <img src="images/1.jpg" style="width: 100%" alt="...">
+		  </div>
+		  <div class="item photos">
+		    <img src="images/2.jpg" style="width: 100%" alt="...">
+		  </div>
+		  <div class="item photos">
+		    <img src="images/3.jpg" style="width: 100%" alt="...">
+		  </div>
+		</div>
 	</div>
 	
 	<section>
@@ -30,10 +31,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class='page-header page-header-with-icon'>
-            			<i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
-          			</div>
-        		</div>
-      		</div>
+            <i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
+          </div>
+        </div>
+      </div>
 
       <div class="row presentation">
       	<div class="col-md-7">
@@ -205,4 +206,6 @@
 <?php
 	include('includes/footer.php');
 ?>	
+
+
 	
