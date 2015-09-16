@@ -88,8 +88,7 @@ session_start();
 		              </div>
 		              <br />
 			          <div class="form-group">
-			              <label for="comment">Message :</label>
-			              <textarea class="form-control" rows="5" id="comment" name="message"></textarea>
+			              <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Votre message"></textarea>
 			          </div>
 			              <input class="btn btn-default" type="submit" value="Envoyer" onclick="if (window.confirm('Voulez-vous vraiment envoyer ce formulaire ?')) 
 			                {location.href='contact.php';return true;} else {return false;}" /> <!-- onclick = fenêtre de confirmation-->
