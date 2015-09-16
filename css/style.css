@@ -4,8 +4,13 @@
 /**
  * GENERAL.............................
  * TYPOGRAPHIE.........................
- * FONT................
+ * HEADER..............................
+ * NAVIGATION..........................
+ * CAROUSEL-HEADER.....................
+ * CAROUSEL-TEMOIGNAGE.................
+ * FOOTER..............................
  */
+
 
 /*------------------------------------*\
     $GENERAL
@@ -47,6 +52,14 @@ img {
 .sous-titre {
   font-size: 1.8em;
   text-align: center;
+}
+
+.bienvenue {
+  
+  padding-top: 70px;
+}
+.accueil {
+  padding-top: 30px;
 }
 
 
@@ -122,31 +135,80 @@ ul {
 /*------------------------------------*\
     $NAVIGATION
 \*------------------------------------*/
-.navbar
-{
-	background-color: black;
-	border: none;
-	border-radius: 0px;
-	padding-right: 40px;
-	margin-bottom: 0;
+.navbar-brand {
+  padding: 0;
+  margin:0;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #151515;
+  padding: 15px 0;
+  padding-bottom: 0;
+
+}
+
+.navbar .navbar-inverse {
   border-bottom: 2px solid #FFFF00;
-  box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.navbar-brand
-{
-	display: none;
+ .navbar-nav{
+  margin-top: 12px;
+ }
+
+.navbar-nav>li{
+  margin-left: 15px;
+  padding-bottom: 15px;
 }
 
-.navbar .nav.pull-right 
-{
-    float: right;
+.navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
 }
 
-.navbar-default .navbar-nav > li > a /* changement couleur de la navbar bootstrap */
-{
-	color: white;
+.navbar-inverse .navbar-nav > li > a:hover{
+  background-color: #FFFF00;
+  color: #000;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
 }
+
+.navbar-inverse {
+  border: none;
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 36px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #FFFF00;
+  color: #000;
+}
+
+
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+ 
 
 #topnavbar.affix
 {
@@ -155,13 +217,7 @@ ul {
 	width: 100%;
 	z-index: 10;
 }
-.bienvenue {
-	
-	padding-top: 70px;
-}
-.accueil {
-	padding-top: 30px;
-}
+
 
 
 /*------------------------------------*\
