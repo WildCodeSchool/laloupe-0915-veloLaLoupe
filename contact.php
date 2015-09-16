@@ -96,7 +96,7 @@ session_start();
 			        </form>
 
 			<div class="col-md-6">
-				<img src="" alt="" />
+				<div id="map" />
 			</div>
 		</div>
 	</section>
