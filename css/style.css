@@ -1,3 +1,15 @@
+/*------------------------------------*\
+    $CONTENU
+\*------------------------------------*/
+/**
+ * GENERAL.............................
+ * TYPOGRAPHIE.........................
+ * FONT................
+ */
+
+/*------------------------------------*\
+    $GENERAL
+\*------------------------------------*/
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #000;
@@ -12,6 +24,37 @@ header
 	padding-left: 60px;*/
 }
 
+section
+{
+  padding: 20px;
+}
+
+img {
+  box-shadow: 0px 0px 7px 4px rgba(255,255,255,0.3);
+}
+
+.titre-classique {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #eee;
+}
+  .titre-classique span {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #FFFF00;
+    font-size: 1em;
+  }
+
+.sous-titre {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+
+
+
+/*------------------------------------*\
+    $TYPOGRAPHIE
+\*------------------------------------*/
 h1
 {
 	font-size: 2em;
@@ -52,27 +95,12 @@ ul {
 	font-size: 1.2em;
 }
 
-section
-{
-	padding: 20px;
-}
 
-.titre-classique {
-	margin-bottom: 16px;
-	padding-bottom: 8px;
-	border-bottom: 2px solid #eee;
-}
-	.titre-classique span {
-		padding-bottom: 6px;
-		border-bottom: 1px solid #FFFF00;
-		font-size: 1em;
-	}
 
-.sous-titre {
-  font-size: 1.8em;
-  text-align: center;
-}
 
+/*------------------------------------*\
+    $HEADER
+\*------------------------------------*/
 .header-right
 {
 	text-align: center;
@@ -88,6 +116,12 @@ section
   margin-top: 40px;
 }
 
+
+
+
+/*------------------------------------*\
+    $NAVIGATION
+\*------------------------------------*/
 .navbar
 {
 	background-color: black;
@@ -129,59 +163,14 @@ section
 	padding-top: 30px;
 }
 
-img {
-  box-shadow: 0px 0px 7px 4px rgba(255,255,255,0.3);
-}
+
 /*------------------------------------*\
-    $CAROUSEL
+    $CAROUSEL-HEADER
 \*------------------------------------*/
 .photos
 {
 	height: 400px;
 }
-
-
-/*------------------------------------*\
-    $FOOTER
-\*------------------------------------*/
-footer {
-  margin-top: 50px;
-}
-
-footer, footer a {
-	background-color: #FFFF00;
-	color: #000;
-}
-	footer i {
-		padding-right: 10px;
-	}
-	footer p {
-		font-size: 1em;
-    color: #000;
-	}
-
-i.facebook {
-	background-color: #000;
-	color: #FFFF00 !important;
-	margin-left: 20px;
-	border-radius: 50%;
-}
-
-.bottom-bar {
-	background-color: #FFFF00;
-	color: #000;
-}
-	.bottom-bar a {
-		text-decoration: none;
-		background-color: #FFFF00;
-		color: #000;
-	}
-	.bottom-bar p {
-		padding-top: 10px;
-	}
-	.bottom-bar i {
-		color: #000;
-	}
 
 
 
@@ -318,3 +307,51 @@ i.facebook {
     width: 100px;
     height: 50px;
 }
+
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+footer {
+  margin-top: 50px;
+}
+
+footer, footer a {
+	background-color: #FFFF00;
+	color: #000;
+}
+	footer i {
+		padding-right: 10px;
+	}
+	footer p {
+		font-size: 1em;
+    color: #000;
+	}
+
+i.facebook {
+	background-color: #000;
+	color: #FFFF00 !important;
+	margin-left: 20px;
+	border-radius: 50%;
+}
+
+.bottom-bar {
+	background-color: #FFFF00;
+	color: #000;
+}
+	.bottom-bar a {
+		text-decoration: none;
+		background-color: #FFFF00;
+		color: #000;
+	}
+	.bottom-bar p {
+		padding-top: 10px;
+	}
+	.bottom-bar i {
+		color: #000;
+	}
+
+
+
+
+
