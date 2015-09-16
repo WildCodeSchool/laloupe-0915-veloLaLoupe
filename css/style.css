@@ -1,4 +1,6 @@
-
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 header
 {
 	background-color: black;
@@ -22,6 +24,9 @@ h2 span
 	color: #FFFF00;
 	font-size: 2em;
 }
+h3 {
+	font-weight: 300; 
+}
 p {
 	font-size: 1em;
 }
@@ -32,8 +37,9 @@ p {
 	border-bottom: 2px solid #eee;
 }
 	.titre-classique span {
-		padding-bottom: 8px;
-		border-bottom: 2px solid #FFFF00;
+		padding-bottom: 6px;
+		border-bottom: 1px solid #FFFF00;
+		font-size: 1em;
 	}
 
 
@@ -49,6 +55,7 @@ p {
 	border: none;
 	border-radius: 0px;
 	padding-right: 40px;
+	margin-bottom: 0;
 }
 
 .navbar-brand
@@ -71,6 +78,19 @@ p {
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+
+.bandeau-promo {
+    position: relative;
+    padding: 40px 0;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #FFFF00;
+}
+.shadow-image {
+    position: absolute;
+    left: 50%;
+    margin-left: -544px;
+    bottom: -51px;
 }
 
 /*------------------------------------*\
