@@ -81,14 +81,21 @@
 
 			<div class="row bienvenue">
 				<div class="col-md-12">
-					<h2 class="text-center">Bienvenue chez <span>KM120.CYCLE</span><br />
-					<small>Réparations, ventes, entretien et gardiennage de votre vélo</small></h2>
+					<h2 class="text-center">Bienvenue chez <span>KM120.CYCLE</span></h2>
+					<p class="sous-titre">Réparations, ventes, entretien et gardiennage de votre vélo</p>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-7">
-					<h3 class="titre-classique"><span>Un professionnel à votre service</span></h3>
+				<div class="col-md-12">
+					<div class='page-header page-header-with-icon'>
+            <i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row presentation">
+      	<div class="col-md-7">
 					<p>
 						La vente de vélos et d'accessoires pour tout âge, l'entretien et la réparation, ainsi que des conseils personnalisés autour du vélo et de son utilisation.
 							La qualité du service et des produits, le souci de la satisfaction de la clientèle, sont les principes essentiels de mon engagement.
@@ -120,20 +127,23 @@
 		</div>
 	</section>
 
-	<div class="container">
-		<hr>
-	</div>
-
 	<section>
 		<div class="accueil">
 			<div class="container">	
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class='page-header page-header-with-icon'>
+	            <i class='fa fa-map-marker'></i><h3>Nous vous accueillons à La Loupe</h3>
+	          </div>
+	        </div>
+      	</div>
 
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<img src="images/googlemap.png" alt="">
 					</div>
-					<div class="col-md-6">
-						<h3 class="titre-classique" style="font-weight: 400;"><span>Nous vous accueillons à La Loupe</span></h3>
+					<div class="col-md-5">
 
 		        <div class="row">
 							<div class="col-md-12">
@@ -176,10 +186,12 @@
 	<section>
 		<div class="container">
 			<div class="row">
-    		<div class='col-md-offset-1 col-md-10 text-center'>
-    			<h3 class="titre-classique"><span>Ils disent de nous</span></h3>
-    		</div>
-  		</div>
+				<div class="col-md-12">
+					<div class='page-header page-header-with-icon'>
+	          <i class='fa fa-comments-o'></i><h3>Ils disent de nous</h3>
+	        </div>
+	      </div>
+      </div>
 		  <div class='row'>
 		    <div class='col-md-12'>
 		      <div class="carousel slide" data-ride="carousel" id="quote-carousel">

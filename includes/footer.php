@@ -7,7 +7,7 @@
 		
 		<div class="row">
 			<div class="col-md-8">
-				<h3 class="titre-classique"><span>Nos Partenaires</span></h3>
+				<h4 class="titre-classique"><span>Nos Partenaires</span></h4>
 					<div class="carouselFooter">
 						<div class="item">
 							<img src="http://lorempicsum.com/futurama/600/400/1" width="100%" />
@@ -33,7 +33,7 @@
 				
 				<div class="row">
 					<div class="col-md-12">
-						<h3 class="titre-classique"><span>Contactez-nous</span></h3>
+						<h4>Contactez-nous</h4>
 					</div>
 				</div>
         
