@@ -19,12 +19,12 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-md-2 logo">
 					<h2><span>KM120</span><br />.CYCLES</h2>
 				</div>
 
-				<div class="col-md-6 col-md-offset-4 header-right">
-				<h3>Gérald MILTGEN</br />Réparation et ventes de vélos à La Loupe</h3>
+				<div class="col-md-7 col-md-offset-3 header-right">
+				<h3 class="pull-right">Gérald MILTGEN</br />Réparation et ventes de vélos à La Loupe</h3>
 				</div>
 			</div>
 		</div>
@@ -45,11 +45,11 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
-			        <li><a href="index.php">Accueil</a></li>
-			        <li><a href="#">Atelier</a></li>
-			        <li><a href="#">Ventes</a></li>
-			        <li><a href="#">Promotions</a></li>
-			        <li><a href="contact.php">Contact</a></li>
+			        <li><a href="index.php"><i class="fa fa-home"></i> ACCUEIL</a></li>
+			        <li><a href="#">ATELIER</a></li>
+			        <li><a href="#">VENTES</a></li>
+			        <li><a href="#">PROMOTIONS</a></li>
+			        <li><a href="contact.php">CONTACT</a></li>
 			       </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
