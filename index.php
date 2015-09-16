@@ -30,10 +30,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class='page-header page-header-with-icon'>
-            <i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
-          </div>
-        </div>
-      </div>
+            			<i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
+          			</div>
+        		</div>
+      		</div>
 
       <div class="row presentation">
       	<div class="col-md-7">
@@ -205,32 +205,4 @@
 <?php
 	include('includes/footer.php');
 ?>	
-
 	
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-
-	<script defer async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrfLAPBUol_8Q1iqV1b5YnfG9xUJbIefA&callback=initMap">
-  </script>
-    
-
-	<script>
-      	$('#topnavbar').affix({
-          	offset: 15
-      	});
-	</script>
-
-	<script>
-		$('.carousel').carousel({
-   			interval: 5000
-   		});
-	</script>
-
-
-
-	</body>
-</html>

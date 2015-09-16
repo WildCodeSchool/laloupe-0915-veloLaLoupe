@@ -62,64 +62,59 @@
 ?>
 
 	<section>
-		<div class="row">
-			<div class="col-md-6">
-		          <form action="traitement.php" method="POST">
-		              <div class="input-group">
-		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
-		                  <input type="text" class="form-control formulaire-contact" placeholder="Nom" name="nom" maxLength="25" aria-describedby="basic-addon1" />
-		              </div><br />
-		              <div class="input-group">
-		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
-		                  <input type="text" class="form-control formulaire-contact" placeholder="Prénom" name="prenom" maxLength="25" aria-describedby="basic-addon1" />
-		              </div><br />
-		              <div class="input-group">
-		                  <span class="input-group-addon" id="basic-addon1">@</span>
-		                  <input type="email" class="form-control formulaire-contact" placeholder="Adresse email" name="email" maxLength="60" aria-describedby="basic-addon1" />
-		              </div><br />
-		              <div class="input-group">
-		                  <span class="input-group-addon" id="basic-addon1">@</span>
-		                  <input type="email" class="form-control formulaire-contact" placeholder="Confirmez l'adresse email" name="email_confirm" maxLength="60" aria-describedby="basic-addon1" />
-		              </div><br />
-		              <div class="input-group">
-		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-phone"></i></span> <!-- Ajouter glyphicon a span avec balise i -->
-		                  <input type="email" class="form-control formulaire-contact" placeholder="Téléphone" name="telephone" maxLength="10" aria-describedby="basic-addon1" />
-		              </div>
-		              <br />
-			          <div class="form-group">
-			              <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Votre message"></textarea>
-			          </div>
-			              <input class="btn btn-default" type="submit" value="Envoyer" onclick="if (window.confirm('Voulez-vous vraiment envoyer ce formulaire ?')) 
-			                {location.href='contact.php';return true;} else {return false;}" /> <!-- onclick = fenêtre de confirmation-->
-			        </form>
+    <div class="container">
 
-			<div class="col-md-6">
-				<div id="map" />
-			</div>
-		</div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class='page-header page-header-with-icon'>
+                  <i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
+          </div>
+        </div>
+      </div>
+
+  		<div class="row">
+  			<div class="col-md-6">
+  		          <form action="traitement.php" method="POST">
+  		              <div class="input-group">
+  		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+  		                  <input type="text" class="form-control formulaire-contact" placeholder="Nom" name="nom" maxLength="25" aria-describedby="basic-addon1" />
+  		              </div><br />
+  		              <div class="input-group">
+  		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+  		                  <input type="text" class="form-control formulaire-contact" placeholder="Prénom" name="prenom" maxLength="25" aria-describedby="basic-addon1" />
+  		              </div><br />
+  		              <div class="input-group">
+  		                  <span class="input-group-addon" id="basic-addon1">@</span>
+  		                  <input type="email" class="form-control formulaire-contact" placeholder="Adresse email" name="email" maxLength="60" aria-describedby="basic-addon1" />
+  		              </div><br />
+  		              <div class="input-group">
+  		                  <span class="input-group-addon" id="basic-addon1">@</span>
+  		                  <input type="email" class="form-control formulaire-contact" placeholder="Confirmez l'adresse email" name="email_confirm" maxLength="60" aria-describedby="basic-addon1" />
+  		              </div><br />
+  		              <div class="input-group">
+  		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-phone"></i></span> <!-- Ajouter glyphicon a span avec balise i -->
+  		                  <input type="email" class="form-control formulaire-contact" placeholder="Téléphone" name="telephone" maxLength="10" aria-describedby="basic-addon1" />
+  		              </div>
+  		              <br />
+  			          <div class="form-group">
+  			              <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Votre message"></textarea>
+  			          </div>
+  			              <input class="btn btn-default" type="submit" value="Envoyer" onclick="if (window.confirm('Voulez-vous vraiment envoyer ce formulaire ?')) 
+  			                {location.href='contact.php';return true;} else {return false;}" /> <!-- onclick = fenêtre de confirmation-->
+  			        </form>
+        </div>
+
+  			<div class="col-md-6">
+  				<div id="map" style="height:450px;" />
+  			</div>
+  		</div>
+    </div>
 	</section>
 
 	
 <?php
 	include('includes/footer.php');
+  unset($_SESSION['confirmation']); // unset en bas de page
+  unset($_SESSION['erreur']);
+  unset($_SESSION['non_valide']);
 ?>	
-
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/script2.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script>
-      	$('#topnavbar').affix({
-          	offset: 15
-      	});
-	</script>
-
-<?php 
-    unset($_SESSION['confirmation']); // unset en bas de page
-    unset($_SESSION['erreur']);
-    unset($_SESSION['non_valide']);
-?>
-	</body>
-</html>
