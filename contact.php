@@ -84,7 +84,7 @@ session_start();
 		              </div><br />
 		              <div class="input-group">
 		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-phone"></i></span> <!-- Ajouter glyphicon a span avec balise i -->
-		                  <input type="email" class="form-control formulaire-contact" placeholder="Téléphone (facultatif)" name="telephone" maxLength="10" aria-describedby="basic-addon1" />
+		                  <input type="email" class="form-control formulaire-contact" placeholder="Téléphone" name="telephone" maxLength="10" aria-describedby="basic-addon1" />
 		              </div>
 		              <br />
 			          <div class="form-group">
