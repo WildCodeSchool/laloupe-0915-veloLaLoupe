@@ -41,7 +41,7 @@ h3 {
 
 h4 {
   font-size: 1.4em;
-  color: #FFFF00;
+  color: #000;
 }
 
 p {
@@ -118,31 +118,27 @@ img {
     $FOOTER
 \*------------------------------------*/
 footer {
-  margin-top: 30px;
-  border-top: 2px solid #FFFF00;
+  margin-top: 50px;
 }
 
 footer, footer a {
-	background-color: #000;
+	background-color: #FFFF00;
 	color: #000;
 }
 	footer i {
 		padding-right: 10px;
-		color: #FFFF00;
 	}
 	footer p {
 		font-size: 1em;
+    color: #000;
 	}
 
-.top-footer {
-	padding-bottom: 20px;
+i.facebook {
+	background-color: #000;
+	color: #FFFF00 !important;
+	margin-left: 20px;
+	border-radius: 50%;
 }
-	i.facebook {
-		background-color: #000;
-		color: #FFFF00 !important;
-		margin-left: 20px;
-		border-radius: 50%;
-	}
 
 .bottom-bar {
 	background-color: #FFFF00;
@@ -177,7 +173,7 @@ footer, footer a {
 #quote-carousel .carousel-control
 {
   background: none;
-  color: #222;
+  color: #FFFF00;
   font-size: 2.3em;
   text-shadow: none;
   margin-top: 30px;
@@ -185,12 +181,12 @@ footer, footer a {
 /* Previous button  */
 #quote-carousel .carousel-control.left 
 {
-  left: -12px;
+  left: -30px;
 }
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
-  right: -12px !important;
+  right: -30px !important;
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
@@ -203,11 +199,11 @@ footer, footer a {
 /* Changes the color of the indicators */
 #quote-carousel .carousel-indicators li 
 {
-  background: #c0c0c0;
+  background: #FFFF00;
 }
 #quote-carousel .carousel-indicators .active 
 {
-  background: #333333;
+  background: #FFFF00;
 }
 #quote-carousel img
 {

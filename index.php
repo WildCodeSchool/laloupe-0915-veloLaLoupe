@@ -140,10 +140,10 @@
       	</div>
 
 				<div class="row">
-					<div class="col-md-7">
-						<img src="images/googlemap.png" alt="">
+					<div class="col-md-8">
+						<div id="map" style="width: 100%; height: 450px;"></div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-4">
 
 		        <div class="row">
 							<div class="col-md-12">
@@ -242,7 +242,7 @@
 		                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
 		                </div>
 		                <div class="col-sm-9">
-		                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+		                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor.</p>
 		                  <small>Someone famous</small>
 		                </div>
 		              </div>
@@ -276,6 +276,31 @@
           offset: 15
       });
 	</script>
+
+	<script type="text/javascript">
+
+function initMap() {
+  var myLatLng = {lat: 48.473369, lng: 1.0117314999999962};
+
+  // Create a map object and specify the DOM element for display.
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: myLatLng,
+    scrollwheel: false,
+    zoom: 16
+  });
+
+  // Create a marker and set its position.
+  var marker = new google.maps.Marker({
+    map: map,
+    position: myLatLng,
+    title: 'KM120.CYCLE'
+  });
+}
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrfLAPBUol_8Q1iqV1b5YnfG9xUJbIefA&callback=initMap">
+    </script>
 
 
 </body>
