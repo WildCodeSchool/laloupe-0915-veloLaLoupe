@@ -51,17 +51,19 @@
 			</nav>
 	</header>
 
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide vertical" data-ride="carousel">
 
-	  <!-- Wrapper for slides -->
+	  <!-- Wrapper for slides --> 
 	  <div class="carousel-inner" role="listbox">
 	    <div class="item active">
-	      <img src="..." alt="...">
+	      <img src="images/1.jpg" alt="...">
 	    </div>
 	    <div class="item">
-	      <img src="..." alt="...">
+	      <img src="images/2.jpg" alt="...">
 	    </div>
-	    ...
+	   	<div class="item">
+	      <img src="images/3.jpg" alt="...">
+	    </div>
 	  </div>
 
 	
@@ -76,9 +78,15 @@
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script>
-      $('#topnavbar').affix({
-          offset: 15
-      });
+      	$('#topnavbar').affix({
+          	offset: 15
+      	});
+	</script>
+
+	<script>
+		$('.carousel').carousel({
+   			interval: 5000
+   		});
 	</script>
 
 
