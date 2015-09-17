@@ -31,8 +31,8 @@
 
 			<div class="row">
 				<div class="col-md-12">
-					<div class='page-header page-header-with-icon'>
-            <i class='fa fa-star'></i><h3>Un professionnel à votre Service</h3>
+					<div class="page-header page-header-with-icon">
+            <i class="fa fa-star"></i><h3>Un professionnel à votre Service</h3>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
       <div class="row presentation">
       	<div class="col-md-7">
 					<p>
-						La vente de vélos et d'accessoires pour tout âge, l'entretien et la réparation, ainsi que des conseils personnalisés autour du vélo et de son utilisation.
+						La vente de vélos et d'accessoires pour tout âge, l"entretien et la réparation, ainsi que des conseils personnalisés autour du vélo et de son utilisation.
 							La qualité du service et des produits, le souci de la satisfaction de la clientèle, sont les principes essentiels de mon engagement.
 							Aussi je mets à votre disposition mon expérience, afin de vous proposer des produits de qualité, pour répondre à vos besoins et attentes.
 					</p>
@@ -76,51 +76,81 @@
 				
 				<div class="row">
 					<div class="col-md-12">
-						<div class='page-header page-header-with-icon'>
-	            <i class='fa fa-map-marker'></i><h3>Notre magasin à La Loupe</h3>
+						<div class="page-header page-header-with-icon">
+	            <i class="fa fa-map-marker"></i><h3>Notre magasin à La Loupe</h3>
 	          </div>
 	        </div>
       	</div>
 
 				<div class="row">
-					<div class="col-md-8">
+					<div class="col-md-6">
 						<div id="map" style="width: 100%; height: 450px;"></div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-sm-6">
 
-		        <div class="row">
-							<div class="col-md-12">
-								<p>
-									<i class="fa fa-map-marker"></i>Adresse : 18 rue de la Gare<br />28240 La Loupe
-								</p>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-md-12">
-								<p>
-									<i class="fa fa-phone"></i>Tel : 06.47.73.10.64
-								</p>
-							</div>
-						</div>  
-		        
-		        <div class="row">
-							<div class="col-md-12">
-								<p>
-									<i class="fa fa-envelope"></i><a href="km120.cycle@gmail.com">Email : km120.cycle@gmail.com</a>
-								</p>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-md-12">
-								<p>
-									<i class="fa fa-globe"></i><a href="#">Site : www.km120.cycle.fr</a>
-								</p>
-							</div>
-						</div>
+            <div class="row liste-icones">
+              <div class="col-sm-12 text-center">
+                <div class="icon-wrap icon-circle contrast-bg icon-md">
+                  <i class="fa fa-clock-o text-white"></i>
+                </div>
+                <h4>Nos Horaires</h4>
+                <ul class="list-unstyled">
+	                <li>
+	                  Lundi, Mercredi, Vendredi &mdash;
+	                  <strong>10:00 - 19:00</strong>
+	                </li>
+	                <li>
+	                Mardi &mdash;
+	                <strong>09:00 - 19:00</strong>
+	                </li>
+	                <li>
+	                	Samedi
+	                	&mdash;
+	                	<strong>10:00 - 19:00</strong>
+	                </li>
+	                <li>
+	                	Jeudi, Dimanche, Jours fériés
+	                	&mdash;
+	                	<strong>Fermé</strong>
+	                </li>
+              	</ul>
+              </div>
+            </div>
 
-					</div>
+						<div class="row liste-icones"> 
+              <div class="col-sm-4 text-center">
+                <div class="icon-wrap icon-circle contrast-bg icon-md">
+                  <i class="fa fa-phone text-white"></i>
+                </div>
+                <h4>Téléphone</h4>
+                <ul class="list-unstyled">
+                  <li>02.37.XX.XX.XX.</li>
+                  <li>06.47.73.10.64</li>
+                </ul>
+              </div>
+              <div class="col-sm-4 text-center">
+                <div class="icon-wrap icon-circle contrast-bg icon-md">
+                  <i class="fa fa-envelope text-white"></i>
+                </div>
+                <h4>Mail</h4>
+                <ul class="list-unstyled">
+                  <li><a href="mailto:km120.cycle@gmail.com">km120.cycle@gmail.com</a></li>
+                  <li><a href="mailto:site@domaine.fr">site@domain.fr</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 text-center">
+                <div class="icon-wrap icon-circle contrast-bg icon-md">
+                  <i class="fa fa-map-marker text-white"></i>
+                </div>
+                <h4>Adresse</h4>
+                <ul class="list-unstyled">
+                  <li>18 rue de la gare</li>
+                  <li>28240 La Loupe</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
 				</div>
 			</div>
 		</div>
@@ -130,13 +160,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="text-center separateur"><i class='fa fa-comments-o'></i>Nos témoignages clients</h3>
+					<h3 class="text-center separateur"><i class="fa fa-comments-o"></i>Nos témoignages clients</h3>
 				</div>
 			</div>
 
 			
-		  <div class='row'>
-		    <div class='col-md-12'>
+		  <div class="row">
+		    <div class="col-md-12">
 		      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
 		        <!-- Bottom Carousel Indicators -->
 		        <ol class="carousel-indicators">

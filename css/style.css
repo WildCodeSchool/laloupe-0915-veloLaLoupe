@@ -77,6 +77,9 @@ img {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+  .separateur i {
+    margin-right: 20px;
+  }
 
 
 
@@ -423,8 +426,44 @@ i.facebook {
 	}
 
 
-.bordure-haute {
-  border-top: 2px solid #FFFF00;
+
+
+
+.liste-icones {
+  margin-top: 30px;
+  color: #fff;
 }
+  .liste-icones h4 {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
 
 
+.icon-wrap.icon-circle.icon-md {
+line-height: 45px;
+color: black
+}
+.icon-wrap.icon-md {
+font-size: 1.5em;
+width: 45px;
+height: 45px;
+}
+.icon-wrap.icon-circle {
+line-height: 30px;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-ms-border-radius: 100%;
+-o-border-radius: 100%;
+border-radius: 100%;
+}
+.icon-wrap {
+display: inline-block;
+text-align: center;
+font-size: 1em;
+width: 30px;
+height: 30px;
+}
+.contrast-bg {
+background-color: #FFFF00 !important;
+}
