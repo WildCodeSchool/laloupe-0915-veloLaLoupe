@@ -1,4 +1,5 @@
 <?php
+	$menu_actif = 1;
 	include('includes/header.php');
 ?>
 <div class="container-fluid">
