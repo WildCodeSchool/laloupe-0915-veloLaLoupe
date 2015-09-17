@@ -25,7 +25,8 @@ body {
 	font-weight: 300;
 }
 .container-fluid {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0;
 }
 
 header
@@ -67,6 +68,14 @@ img {
 }
 .accueil {
   padding-top: 30px;
+}
+.separateur {
+  border-top: 2px solid #ffff00;
+  border-bottom: 2px solid #ffff00;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -317,7 +326,7 @@ ul {
 @media (min-width: 768px) { 
     #quote-carousel 
     {
-      margin-bottom: 0;
+      margin-bottom: 30px;
       padding: 0 40px 30px 40px;
     }
     
@@ -364,7 +373,7 @@ ul {
     top: -25px;
     margin-left: -50px;
     color: #FFFF00;
-    background-color: #000;
+    background-color: transparent;
     font-size: 3em;
     line-height: 50px;
     width: 100px;
@@ -376,7 +385,6 @@ ul {
     $FOOTER
 \*------------------------------------*/
 footer {
-  margin-top: 50px;
 }
 
 footer, footer a {
@@ -415,6 +423,8 @@ i.facebook {
 	}
 
 
-
+.bordure-haute {
+  border-top: 2px solid #FFFF00;
+}
 
 

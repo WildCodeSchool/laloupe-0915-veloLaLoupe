@@ -130,11 +130,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class='page-header page-header-with-icon'>
-	          <i class='fa fa-comments-o'></i><h3>Ils disent de nous</h3>
-	        </div>
-	      </div>
-      </div>
+					<h3 class="text-center separateur"><i class='fa fa-comments-o'></i>Nos témoignages clients</h3>
+				</div>
+			</div>
+
+			
 		  <div class='row'>
 		    <div class='col-md-12'>
 		      <div class="carousel slide" data-ride="carousel" id="quote-carousel">

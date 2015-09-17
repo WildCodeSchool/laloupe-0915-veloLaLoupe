@@ -60,8 +60,9 @@
             	} 
             } 
 ?>
-
-	<section style="background-color: rgba(0, 0, 0, 0.9)">
+  <div class="container-fluid">
+	<section>
+    
     <div class="container">
 
       <div class="row bienvenue">
@@ -117,6 +118,7 @@
   		</div>
     </div>
 	</section>
+  </div>
 
 	
 <?php
