@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2 logo">
-					<h2><span>KM120</span><br />.CYCLES</h2>
+					<h2 class="titre-logo">KM120<br /><span>.CYCLES</span></h2>
 				</div>
 
 				<div class="col-md-7 col-md-offset-3 header-right">
