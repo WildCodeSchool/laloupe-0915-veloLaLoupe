@@ -1,0 +1,39 @@
+
+td, th{
+border: 1px solid black;
+padding: 20px 40px 20px 20px;
+}
+.collapsed{
+text-align: center;
+font-size: 1.3em;
+}
+
+th{
+text-align: center;
+}
+
+#accordion, #accordion2 {
+margin-top: 50px;
+}
+
+#photo{
+margin: 50px 0 0 10px;
+}
+
+.colonne2{
+text-align: right;
+color: #D34545;
+
+}
+
+.panel-heading{
+background-color: yellow;
+}
+
+.droit{
+text-align: right;
+}
+
+#texte_intro{
+margin: 100px 0 0 100px;
+}
