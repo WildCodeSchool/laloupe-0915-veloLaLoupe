@@ -213,7 +213,7 @@ ul {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #fff;
+  background: #151515;
   padding: 15px 0;
   padding-bottom: 0;
 
@@ -481,4 +481,6 @@ i.facebook {
 	}
 
 
-
+.titre-slider {
+  color: red;
+}

@@ -8,6 +8,19 @@
 		<div class="carousel-inner" role="listbox">
 		  <div class="item active photos">
 		    <img src="images/1.jpg" style="width: 100%" alt="...">
+		    <div class="carousel-caption">
+		    	<div class="row">
+		    		<div class="col-md-6">
+		    			<img src="images/devanture.jpg" alt="" style="width: 250px; height: 150px;">
+		    			<h2>Un titre dans le slider</h2>
+		    			<h3>Un sous-titre</h3>
+		    			<h3>Un autre sous-titre</h3>
+		    		</div>
+		    		<div class="col-md-6">
+		    			<h2 class="titre-slider">TEST</h2>
+		    		</div>
+		    	</div>
+		    </div>
 		  </div>
 		  <div class="item photos">
 		    <img src="images/2.jpg" style="width: 100%" alt="...">
