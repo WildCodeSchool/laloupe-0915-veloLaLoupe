@@ -1,4 +1,7 @@
 <?php
+session_start();
+$menu_actif = 2;
+
 
     include('includes/header.php');
 
@@ -7,6 +10,14 @@
 <body>
 
 	<div class="container-fluid">
+
+		<div class="row bienvenue">
+	        <div class="col-md-12">
+	          <h2 class="text-center">Atelier<span>KM120.CYCLE</span></h2>
+	          <p class="sous-titre">Vous trouverez dans cette rubrique nos differents tarifs et forfaits</p>
+	        </div>
+      	</div>
+
 		<div class="container">
 		    <div class="row">
 		      <div class="col-lg-offset-1 col-lg-5" id="texte_intro" >
