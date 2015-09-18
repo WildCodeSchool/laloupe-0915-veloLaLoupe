@@ -480,5 +480,46 @@ i.facebook {
 		color: #000;
 	}
 
+/* ------------ Atelier ----------- */
 
+
+td, th{
+border: 1px solid black;
+padding: 20px 40px 20px 20px;
+}
+
+th{
+text-align: center;
+}
+
+.collapsed{
+text-align: center;
+font-size: 1.3em;
+}
+
+
+#accordion, #accordion2 {
+margin-top: 50px;
+}
+
+#photo{
+margin: 50px 0 0 10px;
+}
+
+.colonne2{
+text-align: right;
+color: #D34545;
+}
+
+.panel-heading{
+background-color: yellow;
+}
+
+.droit{
+text-align: right;
+}
+
+#texte_intro{
+margin: 100px 0 0 100px;
+}
 

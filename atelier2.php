@@ -16,7 +16,7 @@
         
       </div>
       <div class="col-lg-offset-0.5 col-lg-5">
-        <img id="photo" src="images/image_mecano.jpg" alt="atelier">
+        <img id="photo" src="images/atelier.jpg" alt="atelier">
       </div>
     </div>
  <div class="container">
