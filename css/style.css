@@ -214,7 +214,7 @@ ul {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #fff;
+  background: #151515;
   padding: 15px 0;
   padding-bottom: 0;
 
@@ -564,8 +564,21 @@ text-align: center;
 margin-top: 50px;
 }
 
+
 /* ----------------- Promotion -------------------*/
 
 #bloc_promo{
 margin-top: 50px;
 }
+
+
+
+.icone-texte {
+  margin-right: 15px;
+}
+
+.icone-liste {
+  color: #FFFF00;
+  padding-right: 15px;
+}
+
