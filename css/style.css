@@ -6,6 +6,7 @@
  * TYPOGRAPHIE.........................
  * HEADER..............................
  * NAVIGATION..........................
+ * NAVBAR..............................
  * CAROUSEL-HEADER.....................
  * CAROUSEL-TEMOIGNAGE.................
  * FOOTER..............................
@@ -288,6 +289,35 @@ ul {
 }
 
 
+/*------------------------------------*\
+    $NAVTAB
+\*------------------------------------*/
+.nav-tabs
+{
+  border: none;
+  margin-bottom: 30px;
+}
+
+.navtab-onglet
+{
+  width: 200px;
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover
+{
+  background-color: #FFFF00;
+}
+
+.img-responsive a:focus
+{
+  background-color: grey;
+}
 
 /*------------------------------------*\
     $CAROUSEL-HEADER
