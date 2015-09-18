@@ -11,7 +11,7 @@
 		    <div class="carousel-caption">
 		    	<div class="row">
 		    		<div class="col-md-6">
-		    			<img src="images/devanture.jpg" alt="" style="width: 250px; height: 150px;">
+		    			<img src="images/devanture.jpg" alt="" style="width: 250px; height: 150px; z-index: -10;">
 		    			<h2>Un titre dans le slider</h2>
 		    			<h3>Un sous-titre</h3>
 		    			<h3>Un autre sous-titre</h3>
@@ -101,7 +101,7 @@
 		<div class="accueil">
 			<div class="container">	
 				
-				<!-- Bidouille separateur de section -->
+			<!-- Bidouille separateur de section -->
 			<div class="row">
 				<div class="col-md-5"><hr></div>
         <div class ="col-md-2 text-center">
@@ -111,7 +111,7 @@
       </div>
       <div class="row">
       	<div class="col-md-12">
-      		<h3 class="text-center titre-section">Un professionnel à votre service</h3>
+      		<h3 class="text-center titre-section">Notre magasin à La Loupe</h3>
       	</div>
       </div>
       <!-- Fin Bidouille separateur de section -->
@@ -203,7 +203,7 @@
       </div>
       <div class="row">
       	<div class="col-md-12">
-      		<h3 class="text-center titre-section">Un professionnel à votre service</h3>
+      		<h3 class="text-center titre-section">Nos témoignages clients</h3>
       	</div>
       </div>
       <!-- Fin Bidouille separateur de section -->

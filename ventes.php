@@ -4,22 +4,29 @@
 ?>
 
 	<div class="container-fluid">
-		<section>
+		
 			<div class="container">
-				<div class="row">
+				<div class="row bienvenue">
 					<div class="col-md-12">
-						<h2 class="text-center">Nos ventes</h2>
+						<h2 class="text-center">Les ventes <span>KM120.CYCLE</span></h2>
 						<p class="sous-titre">Vente de vélos neufs, d'occasions, de pièces détachées et d'accessoires</p>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="col-md-12">
-						<div class="page-header page-header-with-icon">
-	            			<i class="fa fa-bicycle"></i><h3>Vente de vélos</h3>
-	          			</div>
-	        		</div>
-	      		</div>
+				<!-- Bidouille separateur de section -->
+			<div class="row">
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-bicycle section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Nos ventes de vélos</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
 	      		<div class="col-md-12">
 					<!-- Navigation des onglets -->
@@ -53,26 +60,40 @@
 				</div>
 
 
-				<div class="row">
-					<div class="col-md-12">
-						<div class="page-header page-header-with-icon">
-	            <i class="fa fa-cogs"></i><h3>Pièces détachées</h3>
-	          			</div>
-	        		</div>
-	      		</div>
+				<!-- Bidouille separateur de section -->
+			<div class="row">
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-cogs section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Pièces détachées</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
 
-				<div class="row">
-					<div class="col-md-12">
-						<div class="page-header page-header-with-icon">
-	            <i class="fa fa-check-square-o"></i><h3>Accessoires</h3>
-	          			</div>
-	        		</div>
-	      		</div>
+			<!-- Bidouille separateur de section -->
+			<div class="row">
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-plus-square-o section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Accesoires</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
 
 			</div>	
-		</section>
+		
 	</div>
 	
 <?php

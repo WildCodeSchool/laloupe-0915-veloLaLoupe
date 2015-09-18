@@ -175,7 +175,7 @@ ul {
 }
 
 hr {
-  border: 2px solid #FFFF00;
+  border: 1px solid #FFFF00;
   margin-top: 60px;
 }
 
@@ -546,7 +546,7 @@ font-size: 1.3em;
 
 
 #accordion, #accordion2 {
-margin-top: 50px;
+margin-bottom: 50px;
 }
 
 #photo{
@@ -572,9 +572,6 @@ padding: 130px;
 text-align: center;
 }
 
-#bloc1{
-margin-top: 50px;
-}
 
 
 /* ----------------- Promotion -------------------*/
