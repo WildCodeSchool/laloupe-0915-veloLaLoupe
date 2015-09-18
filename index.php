@@ -54,26 +54,33 @@
       <div class="row presentation">
       	<div class="col-md-7">
 					<p>
-						La vente de vélos et d'accessoires pour tout âge, l"entretien et la réparation, ainsi que des conseils personnalisés autour du vélo et de son utilisation.
-							La qualité du service et des produits, le souci de la satisfaction de la clientèle, sont les principes essentiels de mon engagement.
-							Aussi je mets à votre disposition mon expérience, afin de vous proposer des produits de qualité, pour répondre à vos besoins et attentes.
+						<i class="fa fa-quote-left fa-2x icone-texte"></i>Féru de vélo depuis toujours et ayant couru dans des équipes telles "la Pomme" à 
+						Marseille ou encore le VS Chartres, notre magasin est la concrétisation de notre  passion. Soucieux de la qualité
+						du service et des produits, de la satisfaction de notre clientèle, nous mettons à votre disposition notre expérience et nos conseils
+						afin de vous servir au mieux.</p>
+					<p>
+						Vous trouverez dans notre magasin des prestations de :
 					</p>
-
 					<div class="row">
 						<div class="col-md-6">
 							<ul class="list-unstyled">
-								<li>test</li>
-								<li>test</li>
-								<li>test</li>
+								<li><i class="fa fa-check icone-liste"></i>Ventes de vélos neufs et occasions</li>
+								<li><i class="fa fa-check icone-liste"></i>Gardiennage au mois, à l'année</li>
+								<li><i class="fa fa-check icone-liste"></i>Réparations et entretien</li>
+								<li><i class="fa fa-check icone-liste"></i>Stylisation de votre vélo</li>
 							</ul>
 						</div>
 						<div class="col-md-6">
 							<ul class="list-unstyled">
-								<li>test</li>
-								<li>test</li>
-								<li>test</li>
+								<li><i class="fa fa-check icone-liste"></i>Vélos tous types</li>
+								<li><i class="fa fa-check icone-liste"></i>Pièces détachées</li>
+								<li><i class="fa fa-check icone-liste"></i>Accessoires et équipements</li>
 							</ul>
 						</div>
+					</div>
+
+					<div class="row">
+						<a href="#" class="btn btn-block btn-lg btn-default" style="margin-top: 17px;"><span class="glyphicon glyphicon-envelope"></span> Contactez-nous</a>
 					</div>
 
 				</div>

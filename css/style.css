@@ -523,3 +523,14 @@ text-align: right;
 margin: 100px 0 0 100px;
 }
 
+
+
+.icone-texte {
+  margin-right: 15px;
+}
+
+.icone-liste {
+  color: #FFFF00;
+  padding-right: 15px;
+}
+
