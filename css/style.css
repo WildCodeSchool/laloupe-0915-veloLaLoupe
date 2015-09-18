@@ -6,6 +6,7 @@
  * TYPOGRAPHIE.........................
  * HEADER..............................
  * NAVIGATION..........................
+ * NAVBAR..............................
  * CAROUSEL-HEADER.....................
  * CAROUSEL-TEMOIGNAGE.................
  * FOOTER..............................
@@ -300,6 +301,35 @@ i.section-icone {
 }
 
 
+/*------------------------------------*\
+    $NAVTAB
+\*------------------------------------*/
+.nav-tabs
+{
+  border: none;
+  margin-bottom: 30px;
+}
+
+.navtab-onglet
+{
+  width: 200px;
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover
+{
+  background-color: #FFFF00;
+}
+
+.img-responsive a:focus
+{
+  background-color: grey;
+}
 
 /*------------------------------------*\
     $CAROUSEL-HEADER
@@ -504,7 +534,12 @@ th{
 text-align: center;
 }
 
-.collapsed{
+table{
+width: 100%;
+margin: auto;
+}
+
+.panel-title{
 text-align: center;
 font-size: 1.3em;
 }
@@ -515,7 +550,8 @@ margin-top: 50px;
 }
 
 #photo{
-margin: 50px 0 0 10px;
+width: 100%;
+margin: auto;
 }
 
 .colonne2{
@@ -532,7 +568,19 @@ text-align: right;
 }
 
 #texte_intro{
-margin: 100px 0 0 100px;
+padding: 130px;
+text-align: center;
+}
+
+#bloc1{
+margin-top: 50px;
+}
+
+
+/* ----------------- Promotion -------------------*/
+
+#bloc_promo{
+margin-top: 50px;
 }
 
 
