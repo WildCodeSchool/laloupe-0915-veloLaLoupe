@@ -41,15 +41,21 @@
 					<p class="sous-titre">Réparations, ventes, entretien et gardiennage de votre vélo</p>
 				</div>
 			</div>
-
-
+			
+			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-12">
-					<div class="page-header page-header-with-icon">
-            <i class="fa fa-star"></i><h3>Un professionnel à votre Service</h3>
-          </div>
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-star section-icone"></i>
         </div>
+        <div class="col-md-5"><hr></div>
       </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Un professionnel à votre service</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
       <div class="row presentation">
       	<div class="col-md-7">
@@ -80,7 +86,7 @@
 					</div>
 
 					<div class="row">
-						<a href="#" class="btn btn-block btn-lg btn-default" style="margin-top: 17px;"><span class="glyphicon glyphicon-envelope"></span> Contactez-nous</a>
+						<a href="contact.php" class="btn btn-block btn-lg btn-default" style="margin-top: 17px;"><span class="glyphicon glyphicon-envelope"></span> Contactez-nous</a>
 					</div>
 
 				</div>
@@ -95,13 +101,20 @@
 		<div class="accueil">
 			<div class="container">	
 				
-				<div class="row">
-					<div class="col-md-12">
-						<div class="page-header page-header-with-icon">
-	            <i class="fa fa-map-marker"></i><h3>Notre magasin à La Loupe</h3>
-	          </div>
-	        </div>
+				<!-- Bidouille separateur de section -->
+			<div class="row">
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-map-marker section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Un professionnel à votre service</h3>
       	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
 				<div class="row">
 					<div class="col-md-6">
@@ -179,11 +192,21 @@
 
 	<section>
 		<div class="container">
+			
+			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-12">
-					<h3 class="text-center separateur"><i class="fa fa-comments-o"></i>Nos témoignages clients</h3>
-				</div>
-			</div>
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-comments-o section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Un professionnel à votre service</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
 			
 		  <div class="row">

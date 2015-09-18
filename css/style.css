@@ -123,6 +123,9 @@ background-color: #FFFF00 !important;
   margin-top: 50px;
   margin-bottom: 40px;
 }
+h3.titre-section {
+  padding-bottom: 60px;
+}
 
 
 
@@ -170,7 +173,16 @@ ul {
 	font-size: 1.2em;
 }
 
+hr {
+  border: 2px solid #FFFF00;
+  margin-top: 60px;
+}
 
+i.section-icone {
+  font-size: 40px;
+  color: #FFFF00;
+  margin-top: 40px;
+}
 
 
 /*------------------------------------*\
