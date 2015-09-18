@@ -44,7 +44,7 @@
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
             <li <?php echo (isset($menu_actif) && $menu_actif == 1) ? "class='active'" : ''; ?>><a href="index.php"><i class="fa fa-home"></i>ACCUEIL</a></li>
-            <li <?php echo (isset($menu_actif) && $menu_actif == 2) ? 'class="active"' : ''; ?>><a href="#">ATELIER</a></li>
+            <li <?php echo (isset($menu_actif) && $menu_actif == 2) ? 'class="active"' : ''; ?>><a href="atelier.php">ATELIER</a></li>
             <li <?php echo (isset($menu_actif) && $menu_actif == 3) ? 'class="active"' : ''; ?>><a href="#">VENTES</a></li>
             <li <?php echo (isset($menu_actif) && $menu_actif == 4) ? 'class="active"' : ''; ?>><a href="#">PROMOTIONS</a></li>
             <li <?php echo (isset($menu_actif) && $menu_actif == 5) ? 'class="active"' : ''; ?>><a href="contact.php">CONTACT</a></li>                       
