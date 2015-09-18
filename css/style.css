@@ -20,13 +20,13 @@ body {
 	background-image: url(../images/background.jpg);
   background-attachment: fixed;
   background-size: cover;
-
 	color: white;
 	font-weight: 300;
 }
 .container-fluid {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 0;
+
 }
 
 header
@@ -119,6 +119,11 @@ height: 30px;
 background-color: #FFFF00 !important;
 }
 
+.mentions-legales {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
 
 
 
@@ -208,7 +213,7 @@ ul {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #151515;
+  background: #fff;
   padding: 15px 0;
   padding-bottom: 0;
 
@@ -266,21 +271,20 @@ ul {
   color: #000;
 }
 
-
-
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-top: 0;
   padding-bottom: 0;
 }
  
-
 #topnavbar.affix
 {
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 10;
+  /*border-bottom: 1px solid yellow;*/
+  box-shadow: 0px 4px 5px 0px rgba(255, 255, 0, 0.2);
 }
 
 
@@ -293,6 +297,11 @@ ul {
 	height: 400px;
 }
 
+#carousel-example-generic
+{
+  border-bottom: 2px solid yellow;
+  box-shadow: 0px 15px 5px 0px rgba(255, 255, 255, 0.2);
+}
 
 
 
@@ -470,8 +479,6 @@ i.facebook {
 	.bottom-bar i {
 		color: #000;
 	}
-
-
 
 
 

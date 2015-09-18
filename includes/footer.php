@@ -10,10 +10,10 @@
 				<h4>Nos Partenaires</h4>
 					<div class="carouselFooter">
 						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/1" width="100%" />
+							<img src="images/shimano-logo.png" width="100%" />
 						</div>
 						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/2" width="100%" />
+							<img src="images/spiuck.png" width="100%" />
 						</div>
 						<div class="item">
 							<img src="http://lorempicsum.com/futurama/600/400/3" width="100%" />
@@ -78,7 +78,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9">
-					<p><i class="fa fa-copyright"></i>Copyright 2015 - Réalisation : XXXX - <a href="mentionslegales.php">Mention Légales</a></p>
+					<p><i class="fa fa-copyright"></i>Copyright 2015 - Réalisation : XXXX - <a href="mentions-legales.php">Mention Légales</a></p>
 				</div>
 				<div class="col-md-3">
 					<h4>Suivez-nous<i class="fa fa-facebook facebook"></i></h4>
