@@ -21,43 +21,93 @@
         </div>
         <div class="col-md-5"><hr></div>
       </div>
-      <div class="row">
-      	<div class="col-md-12">
-      		<h3 class="text-center titre-section">Nos ventes de vélos</h3>
-      	</div>
-      </div>
       <!-- Fin Bidouille separateur de section -->
+			
+			
+									
+							
 
-	      		<div class="col-md-12">
-					<!-- Navigation des onglets -->
-					<ul class="nav nav-tabs">
-					    <li class="active"><a href="#home" data-toggle="tab" class="navtab-onglet">Occasions</a></li>
-					    <li><a href="#profile" data-toggle="tab" class="navtab-onglet">Neufs</a></li>
-					</ul>
+
+
+<div class="container">
+							<div class="featured-products">
+				<h3 class="sub-head">Buy these products to help us raise donations for the poor</h3>
+				<p>Aenean tristique pulvinar urna, et lacinia magna imperdiet vitae. In vitae lorem dolor, in lacinia augue. Fusce pretium dolor non odio aucto at iaculis nibh pellentesque. Integer dapibus vehicula ligula sit amet aliquam lorem ipsum dolor sit amet. Vestibulum posuere placerat me tus, nec porttitor nisl tempus et tristique pulvinar urna, et lacinia magna imperdiet vitae.</p>
+			
+				<div class="row">
+					<div class="col-md-3">
+						<img src="images/velo1.jpg" class="img-responsive img-rounded" />
+						<h4 style="color: white;">Vélos Hollandais</h4>
+						<div class="ratings">
+							<i class="fa fa-star" style="color: #ffff00;"></i>
+							<i class="fa fa-star" style="color: #ffff00;"></i>
+							<i class="fa fa-star" style="color: #ffff00;"></i>
+							<i class="fa fa-star" style="color: #ffff00;"></i>
+							<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+						</div>
+						<div class="product-price">
+							<span>A partir de</span>
+							<p style="color: #ffff00;"><i class="fa fa-eur"></i>990</p>
+							<a href="checkout.html" title="">En savoir +</a>
+						</div>
+					</div><!--Product-->
+					<div class="col-md-3">
+						<img src="images/velo1.jpg" class="img-responsive img-rounded" />
+						<h4>Sports Inventory</h4>
+						<div class="ratings">
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star-empty"></i>
+							<i class="icon-star-empty"></i>
+						</div>
+						<div class="product-price">
+							<span>$1090</span>
+							<p>$990</p>
+							<a href="checkout.html" title="">Add To Cart</a>
+						</div>
+					</div><!--Product-->
+					<div class="col-md-3">
+						<img src="images/velo1.jpg" class="img-responsive img-rounded" />
+						<h4>Sports Inventory</h4>
+						<div class="ratings">
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star-empty"></i>
+						</div>
+						<div class="product-price">
+							<span>$1090</span>
+							<p>$990</p>
+							<a href="checkout.html" title="">Add To Cart</a>
+						</div>
+					</div><!--Product-->
+					<div class="col-md-3">
+						<img src="images/velo1.jpg" class="img-responsive img-rounded" />
+						<h4>Sports Inventory</h4>
+						<div class="ratings">
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+						</div>
+						<div class="product-price">
+							<span>$1090</span>
+							<p>$990</p>
+							<a href="checkout.html" title="">Add To Cart</a>
+						</div>
+					</div><!--Product-->
+					
 				</div>
-
-				<!-- Tab panes -->
-				<div class="tab-content">
-					<div id="home" class="tab-pane fade in active">
-						<div class="container">	
-							<div class="row">
-								<div class="col-md-4">
-									<a href=""><img src="images/velo1.jpg" class="img-responsive img-rounded" /></a>
-								</div>
-								<div class="col-md-4">
-									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
-								</div>
-								<div class="col-md-4">
-									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
-								</div>
-							</div>
-						</div>	
-
-					</div>
-					<div id="profile" class="tab-pane fade">
-						<p>Aucun vélo en stock pour le moment...</p>
-					</div>
 				</div>
+			
+			</div>
+
+
+
+	      
 
 
 				<!-- Bidouille separateur de section -->
