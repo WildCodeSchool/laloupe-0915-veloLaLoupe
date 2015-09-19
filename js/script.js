@@ -33,6 +33,12 @@ $(document).ready(function() {
 		loop: true
 	});
 
+	$('.carouselVente').owlCarousel({
+		items: 4,
+		margin: 20,
+		autoplay: false
+	});
+
 
 	$('#quote-carousel').carousel({
     	pause: true,
