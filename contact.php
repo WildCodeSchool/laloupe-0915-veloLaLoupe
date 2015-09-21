@@ -75,11 +75,11 @@
 
       <!-- Bidouille separateur de section -->
       <div class="row">
-        <div class="col-md-5"><hr></div>
-        <div class ="col-md-2 text-center">
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
+        <div class ="col-md-2 col-md-2 col-xs-2 text-center">
           <i class="fa fa-envelope-o section-icone"></i>
         </div>
-        <div class="col-md-5"><hr></div>
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -89,7 +89,7 @@
       <!-- Fin Bidouille separateur de section -->
 
   		<div class="row">
-  			<div class="col-md-6">
+  			<div class="col-md-6 col-sm-6 col-xs-12">
   		          <form action="traitement.php" method="POST">
   		              <div class="input-group">
   		                  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
@@ -120,7 +120,7 @@
   			        </form>
         </div>
 
-  			<div class="col-md-6">
+  			<div class="col-md-6 col-sm-6 hidden-xs">
   				<div id="map" class="thumbnail" style="height:450px;" />
   			</div>
   		</div>
