@@ -31,21 +31,21 @@
 			
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr></div>
-        <div class ="col-md-2 text-center">
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
+        <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-star section-icone"></i>
         </div>
-        <div class="col-md-5"><hr></div>
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
       </div>
       <div class="row">
-      	<div class="col-md-12">
+      	<div class="col-md-12 col-sm-12 col-xs-12">
       		<h3 class="text-center titre-section">Un professionnel à votre service</h3>
       	</div>
       </div>
       <!-- Fin Bidouille separateur de section -->
 
       <div class="row presentation">
-      	<div class="col-md-7">
+      	<div class="col-md-7 col-sm-7">
 					<p>
 						<i class="fa fa-quote-left fa-2x icone-texte"></i>Féru de vélo depuis toujours et ayant couru dans des équipes telles "la Pomme" à 
 						Marseille ou encore le VS Chartres, notre magasin est la concrétisation de notre  passion. Soucieux de la qualité
@@ -55,7 +55,7 @@
 						Vous trouverez dans notre magasin des prestations de :
 					</p>
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-12">
 							<ul class="list-unstyled">
 								<li><i class="fa fa-check icone-liste"></i>Ventes de vélos neufs et occasions</li>
 								<li><i class="fa fa-check icone-liste"></i>Gardiennage au mois, à l'année</li>
@@ -63,7 +63,7 @@
 								<li><i class="fa fa-check icone-liste"></i>Stylisation de votre vélo</li>
 							</ul>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-12">
 							<ul class="list-unstyled">
 								<li><i class="fa fa-check icone-liste"></i>Vélos tous types</li>
 								<li><i class="fa fa-check icone-liste"></i>Pièces détachées</li>
@@ -77,7 +77,7 @@
 					</div>
 
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-5 col-sm-5 hidden-xs">
 						<img src="images/devanture.jpg" class="img-responsive img-rounded" alt="Devanture">
 				</div>
 			</div>
@@ -90,24 +90,24 @@
 				
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr></div>
-        <div class ="col-md-2 text-center">
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
+        <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-map-marker section-icone"></i>
         </div>
-        <div class="col-md-5"><hr></div>
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
       </div>
       <div class="row">
-      	<div class="col-md-12">
+      	<div class="col-md-12 col-sm-12 col-xs-12">
       		<h3 class="text-center titre-section">Notre magasin à La Loupe</h3>
       	</div>
       </div>
       <!-- Fin Bidouille separateur de section -->
 
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div id="map" style="width: 100%; height: 450px;"></div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-12">
 
             <div class="row liste-icones">
               <div class="col-sm-12 text-center">
@@ -182,11 +182,11 @@
 			
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr></div>
-        <div class ="col-md-2 text-center">
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
+        <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-comments-o section-icone"></i>
         </div>
-        <div class="col-md-5"><hr></div>
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
       </div>
       <div class="row">
       	<div class="col-md-12">
