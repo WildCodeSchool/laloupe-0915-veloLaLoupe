@@ -526,61 +526,86 @@ i.facebook {
 
 
 td, th{
-border: 1px solid black;
-padding: 20px 40px 20px 20px;
+  border: 1px solid black;
+  padding: 20px 40px 20px 20px;
+  color: #000;
 }
 
 th{
-text-align: center;
+  text-align: center;
 }
 
 table{
-width: 100%;
-margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .panel-title{
-text-align: center;
-font-size: 1.3em;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 
 #accordion, #accordion2 {
+
+  margin-top: 50px;
+
 margin-bottom: 50px;
+
 }
 
 #photo{
-width: 100%;
-margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .colonne2{
-text-align: right;
-color: #D34545;
+  text-align: right;
+  color: #D34545;
 }
 
 .panel-heading{
-background-color: yellow;
+  background-color: yellow;
 }
 
 .droit{
-text-align: right;
+  text-align: right;
 }
 
 #texte_intro{
-padding: 130px;
-text-align: center;
+  padding: 130px;
+  text-align: center;
 }
 
+#bloc1{
+  margin-top: 50px;
+}
+
+/* ----------------- Ventes -------------------*/
+
+.pieces-detachees
+{
+  width: 150px;
+  height: 150px;
+}
+
+.popover-content
+{
+  color: black;
+  text-align: center;
+}
+
+.popover-content ul
+{
+  list-style-type: none;
+}
 
 
 /* ----------------- Promotion -------------------*/
 
 #bloc_promo{
-margin-top: 50px;
+  margin-top: 50px;
 }
-
-
 
 .icone-texte {
   margin-right: 15px;
@@ -591,6 +616,11 @@ margin-top: 50px;
   padding-right: 15px;
 }
 
+.cadre{
+border: 1px solid black;
+border-radius: 15px;
+background-color: white;
+}
 
 /*** produits PAGE /////////
 ///////////////////////////////// ***/
@@ -658,34 +688,26 @@ margin-top: 50px;
 }
 
 
-/*** ALIGNED IMAGES ***/
-.aligned img {
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;
-    -ms-border-radius:4px;
-    -o-border-radius:4px;
-    border-radius:4px;
+.fiche-occasion {
+  margin-top: 20px;
 }
-.aligned {
-    float: left;
-}
-.aligned.right {
-    text-align: right;
-}
-.aligned.right img{
-  margin-left:15px;
-}
-.aligned.left {
-    text-align:left;
-}
-.aligned.left img{
-  margin-right:15px;
-}
-.aligned h5 {
-    color: #5D5D5D;
-    font-family: roboto;
-    font-size: 16px;
-    margin-bottom: 20px;
+  .fiche-occasion i, .fiche-occasion p {
+    margin-top: 10px;
+  }
+.titre-occasion {
+  color: #FFFF00;
+  margin-top: 0;
 }
 
+.descriptif p {
+  color: black;
+}
+.descriptif img {
+  margin-top: 20px;
+}
 
+/*design des images dans accessoires*/
+.img-accesoires{
+  height: 200px;
+  width: auto;
+}

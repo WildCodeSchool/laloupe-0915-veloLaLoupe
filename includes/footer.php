@@ -10,22 +10,34 @@
 				<h4>Nos Partenaires</h4>
 					<div class="carouselFooter">
 						<div class="item">
-							<img src="images/shimano-logo.png" width="100%" />
+							<img src="images/sponsors/bbb.png" width="100%" />
 						</div>
 						<div class="item">
-							<img src="images/spiuck.png" width="100%" />
+							<img src="images/sponsors/sram.png" width="100%" />
 						</div>
 						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/3" width="100%" />
+							<img src="images/sponsors/campagnolo.png" width="100%" />
 						</div>
 						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/4" width="100%" />
+							<img src="images/sponsors/northwave.png" width="100%" />
 						</div>
 						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/5" width="100%" />
+							<img src="images/sponsors/exs.png" width="100%" />
 						</div>
 						<div class="item">
-							<img src="http://lorempicsum.com/futurama/600/400/6" width="100%" />
+							<img src="images/sponsors/rockshox.png" width="100%" />
+						</div>
+						<div class="item">
+							<img src="images/sponsors/prologo.png" width="100%" />
+						</div>
+						<div class="item">
+							<img src="images/sponsors/vision.png" width="100%" />
+						</div>
+						<div class="item">
+							<img src="images/sponsors/shimano.png" width="100%" />
+						</div>
+						<div class="item">
+							<img src="images/sponsors/spiuk.png" width="100%" />
 						</div>
 					</div>
 				</div>
@@ -91,7 +103,7 @@
 <!-- Fin Footer
 ================================================== -->
 
-<script src="js/jquery.js"></script>
+	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
@@ -103,6 +115,12 @@
 
     <script defer async
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrfLAPBUol_8Q1iqV1b5YnfG9xUJbIefA&callback=initMap">
+    </script>
+
+    <script>
+    	$(function () {
+  			$('[data-toggle="popover"]').popover()
+		})
     </script>
 
    </body>

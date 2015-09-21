@@ -29,6 +29,7 @@ $(document).ready(function() {
 		items: 4,
 		margin: 20,
 		autoplay: true,
+		dots: false,
 		autoplayTimeout: 3000,
 		loop: true
 	});
