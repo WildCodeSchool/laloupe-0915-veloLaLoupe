@@ -19,11 +19,11 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2 logo">
+				<div class="col-md-2 col-sm-2 logo">
 					<h2 class="titre-logo">KM120<br /><span>.CYCLES</span></h2>
 				</div>
 
-				<div class="col-md-7 col-md-offset-3 header-right">
+				<div class="col-md-7 col-md-offset-3 col-sm 10 header-right">
 				<h3 class="pull-right">Gérald MILTGEN</br />Réparation et ventes de vélos à La Loupe</h3>
 				</div>
 			</div>
