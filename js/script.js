@@ -48,8 +48,14 @@ $(document).ready(function() {
     	pause: true,
     	interval: 4000
   	});
-  	jQuery(window).scroll(function(){
+  	// redmensionnement du header logo au scroll du navigateur
+
+	jQuery(window).scroll(function(){
+		if(jQuery(window).scrollTop()>0){
     	jQuery('h2.titre-logo-on-scroll.hidden').removeClass('hidden');
+    	}else{
+    		jQuery('h2.titre-logo-on-scroll').addClass('hidden');
+    	}
 	});
 
 });

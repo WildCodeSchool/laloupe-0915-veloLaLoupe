@@ -714,6 +714,7 @@ background-color: white;
 /*logo on scroll */
 h2.titre-logo-on-scroll {
     font-size: 25px !important;
+    margin-top: 10px;
 }
 .hidden{
   display: none;

@@ -39,7 +39,7 @@
             <span class="icon-bar"></span>
         	</button>
           <a class="navbar-brand" href="index.html">
-          	<h2 class="titre-logo-on-scroll hidden">KM120<br /><span>.CYCLES</span></h2>
+          	<h2 class="titre-logo-on-scroll hidden">KM120<span> .CYCLES</span></h2>
           </a>
         </div>
 				
