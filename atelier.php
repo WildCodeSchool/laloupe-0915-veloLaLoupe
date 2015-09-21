@@ -36,12 +36,16 @@ $menu_actif = 2;
     </div>
 
 		<div class="container">
+
+		    <div class="row">
+
 		  <div class="row" id="bloc1">
 		    <div class="col-lg-6" id="texte_intro" >
 		      <p class="texte">Besoin d'une reparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
 		      et entretenir vos vélos et leurs donner une seconde vie !</p>
-		      
 		    </div>
+
+		    
 		    <div class="col-lg-6">
 		      <img id="photo" src="images/image_mecano.jpg" alt="atelier">
 		    </div>
