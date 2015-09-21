@@ -21,14 +21,14 @@ $menu_actif = 2;
 
    	<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr></div>
-        <div class ="col-md-2 text-center">
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
+        <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-wrench section-icone"></i>
         </div>
-        <div class="col-md-5"><hr></div>
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
       </div>
       <div class="row">
-      	<div class="col-md-12">
+      	<div class="col-md-12 col-sm-12">
       		<h3 class="text-center titre-section">Notre expérience et notre savoir-faire</h3>
       	</div>
       </div>
@@ -40,24 +40,24 @@ $menu_actif = 2;
 		    <div class="row">
 
 		  <div class="row" id="bloc1">
-		    <div class="col-lg-6" id="texte_intro" >
+		    <div class="col-sm-6" id="texte_intro" >
 		      <p class="texte">Besoin d'une reparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
 		      et entretenir vos vélos et leurs donner une seconde vie !</p>
 		    </div>
 
 		    
-		    <div class="col-lg-6">
+		    <div class="col-sm-6">
 		      <img id="photo" src="images/image_mecano.jpg" alt="atelier">
 		    </div>
 		  </div>
 		
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr></div>
-        <div class ="col-md-2 text-center">
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
+        <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-eur section-icone"></i>
         </div>
-        <div class="col-md-5"><hr></div>
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
       </div>
       <div class="row">
       	<div class="col-md-12">
