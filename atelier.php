@@ -73,7 +73,7 @@ $menu_actif = 2;
 				      		</h4>
 				    	</div>
 				    	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-				     		<div class="panel-body" style="color: black;">
+				     		<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -118,7 +118,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos forfaits</th>
@@ -159,7 +159,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos forfaits</th>
@@ -192,7 +192,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos services Express</th>
@@ -253,7 +253,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -298,7 +298,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-					    	<div class="panel-body" style="color: black;">
+					    	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestation</th>
@@ -387,7 +387,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-					    	<div class="panel-body" style="color: black;">
+					    	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -452,7 +452,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-					        <div class="panel-body" style="color: black;">
+					        <div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
