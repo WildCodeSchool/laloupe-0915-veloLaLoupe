@@ -8,6 +8,19 @@
 		<div class="carousel-inner" role="listbox">
 		  <div class="item active photos">
 		    <img src="images/1.jpg" style="width: 100%" alt="...">
+		    <div class="carousel-caption">
+		    	<div class="row">
+		    		<div class="col-md-6">
+		    			<img src="images/devanture.jpg" alt="" style="width: 250px; height: 150px; z-index: -10;">
+		    			<h2>Un titre dans le slider</h2>
+		    			<h3>Un sous-titre</h3>
+		    			<h3>Un autre sous-titre</h3>
+		    		</div>
+		    		<div class="col-md-6">
+		    			<h2 class="titre-slider">TEST</h2>
+		    		</div>
+		    	</div>
+		    </div>
 		  </div>
 		  <div class="item photos">
 		    <img src="images/2.jpg" style="width: 100%" alt="...">
@@ -28,39 +41,52 @@
 					<p class="sous-titre">Réparations, ventes, entretien et gardiennage de votre vélo</p>
 				</div>
 			</div>
-
-
+			
+			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-12">
-					<div class="page-header page-header-with-icon">
-            <i class="fa fa-star"></i><h3>Un professionnel à votre Service</h3>
-          </div>
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-star section-icone"></i>
         </div>
+        <div class="col-md-5"><hr></div>
       </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Un professionnel à votre service</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
       <div class="row presentation">
       	<div class="col-md-7">
 					<p>
-						La vente de vélos et d'accessoires pour tout âge, l"entretien et la réparation, ainsi que des conseils personnalisés autour du vélo et de son utilisation.
-							La qualité du service et des produits, le souci de la satisfaction de la clientèle, sont les principes essentiels de mon engagement.
-							Aussi je mets à votre disposition mon expérience, afin de vous proposer des produits de qualité, pour répondre à vos besoins et attentes.
+						<i class="fa fa-quote-left fa-2x icone-texte"></i>Féru de vélo depuis toujours et ayant couru dans des équipes telles "la Pomme" à 
+						Marseille ou encore le VS Chartres, notre magasin est la concrétisation de notre  passion. Soucieux de la qualité
+						du service et des produits, de la satisfaction de notre clientèle, nous mettons à votre disposition notre expérience et nos conseils
+						afin de vous servir au mieux.</p>
+					<p>
+						Vous trouverez dans notre magasin des prestations de :
 					</p>
-
 					<div class="row">
 						<div class="col-md-6">
 							<ul class="list-unstyled">
-								<li>test</li>
-								<li>test</li>
-								<li>test</li>
+								<li><i class="fa fa-check icone-liste"></i>Ventes de vélos neufs et occasions</li>
+								<li><i class="fa fa-check icone-liste"></i>Gardiennage au mois, à l'année</li>
+								<li><i class="fa fa-check icone-liste"></i>Réparations et entretien</li>
+								<li><i class="fa fa-check icone-liste"></i>Stylisation de votre vélo</li>
 							</ul>
 						</div>
 						<div class="col-md-6">
 							<ul class="list-unstyled">
-								<li>test</li>
-								<li>test</li>
-								<li>test</li>
+								<li><i class="fa fa-check icone-liste"></i>Vélos tous types</li>
+								<li><i class="fa fa-check icone-liste"></i>Pièces détachées</li>
+								<li><i class="fa fa-check icone-liste"></i>Accessoires et équipements</li>
 							</ul>
 						</div>
+					</div>
+
+					<div class="row">
+						<a href="contact.php" class="btn btn-block btn-lg btn-default" style="margin-top: 17px;"><span class="glyphicon glyphicon-envelope"></span> Contactez-nous</a>
 					</div>
 
 				</div>
@@ -75,13 +101,20 @@
 		<div class="accueil">
 			<div class="container">	
 				
-				<div class="row">
-					<div class="col-md-12">
-						<div class="page-header page-header-with-icon">
-	            <i class="fa fa-map-marker"></i><h3>Notre magasin à La Loupe</h3>
-	          </div>
-	        </div>
+			<!-- Bidouille separateur de section -->
+			<div class="row">
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-map-marker section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Notre magasin à La Loupe</h3>
       	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
 				<div class="row">
 					<div class="col-md-6">
@@ -159,11 +192,21 @@
 
 	<section>
 		<div class="container">
+			
+			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-12">
-					<h3 class="text-center separateur"><i class="fa fa-comments-o"></i>Nos témoignages clients</h3>
-				</div>
-			</div>
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-comments-o section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Nos témoignages clients</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 
 			
 		  <div class="row">

@@ -80,13 +80,25 @@
 .owl-carousel .owl-controls .owl-nav .owl-prev,
 .owl-carousel .owl-controls .owl-nav .owl-next,
 .owl-carousel .owl-controls .owl-dot {
-  cursor: pointer;
-  cursor: hand;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  display: inline-block;
+  position: relative;
+  color: #ffff00;
+  zoom: 1;
+  margin: 5px;
+  font-size: 1.6em;
+  border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  opacity: 1;
+  padding: 0 15px;
+  transition: all 0.17s ease-in-out;
+  -moz-transition: all 0.17s ease-in-out;
+  -webkit-transition: all 0.17s ease-in-out;
+  -o-transition: all 0.17s ease-in-out;
+    cursor: pointer;
 }
 .owl-carousel.owl-loaded {
   display: block;
@@ -214,3 +226,6 @@
   position: relative;
   z-index: 1;
 }
+
+
+

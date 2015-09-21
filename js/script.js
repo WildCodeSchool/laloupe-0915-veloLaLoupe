@@ -33,6 +33,15 @@ $(document).ready(function() {
 		loop: true
 	});
 
+	$('.carouselVente').owlCarousel({
+		items: 4,
+		margin: 20,
+		autoplay: false,
+		dots: false,
+		nav: true,
+		navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+	});
+
 
 	$('#quote-carousel').carousel({
     	pause: true,
