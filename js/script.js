@@ -26,12 +26,28 @@ $(document).ready(function() {
 
 
 	$('.carouselFooter').owlCarousel({
-		items: 4,
 		margin: 20,
 		autoplay: true,
 		dots: false,
 		autoplayTimeout: 3000,
-		loop: true
+		loop: true,
+		responsiveClass:true,
+    	responsive:{
+        	0:{
+            	items:1,
+        	},
+        	480:{
+            	items:2,
+        	},
+        	768:{
+        		items:3
+
+        	},
+        	992: {
+        		items:4
+        	}
+        }
+
 	});
 
 	$('.carouselVente').owlCarousel({

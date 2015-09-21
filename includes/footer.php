@@ -6,7 +6,7 @@
 	<div class="container top-footer">
 		
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-8 col-sm-8">
 				<h4>Nos Partenaires</h4>
 					<div class="carouselFooter">
 						<div class="item">
@@ -41,7 +41,7 @@
 						</div>
 					</div>
 				</div>
-			<div class="col-md-3 col-md-offset-1 contactez-nous">
+			<div class="col-md-3 col-md-offset-1 col-sm-4 contactez-nous">
 				
 				<div class="row">
 					<div class="col-md-12">
@@ -89,10 +89,10 @@
 	<div class="container-fluid bottom-bar">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-9 col-sm-9 col-xs-12">
 					<p><i class="fa fa-copyright"></i>Copyright 2015 - Réalisation : XXXX - <a href="mentions-legales.php">Mention Légales</a></p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3 col-xs-12">
 					<h4>Suivez-nous<i class="fa fa-facebook facebook"></i></h4>
 				</div>
 			</div>
