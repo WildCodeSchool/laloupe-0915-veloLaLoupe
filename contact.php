@@ -73,13 +73,20 @@
         </div>
       </div>
 
+      <!-- Bidouille separateur de section -->
+      <div class="row">
+        <div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+          <i class="fa fa-envelope-o section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
       <div class="row">
         <div class="col-md-12">
-          <div class='page-header page-header-with-icon'>
-                  <i class='fa fa-envelope-o'></i><h3>Formulaire de contact</h3>
-          </div>
+          <h3 class="text-center titre-section">Formulaire de contact</h3>
         </div>
       </div>
+      <!-- Fin Bidouille separateur de section -->
 
   		<div class="row">
   			<div class="col-md-6">

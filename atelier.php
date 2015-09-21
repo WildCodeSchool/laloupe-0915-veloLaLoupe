@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 $menu_actif = 2;
 
 
@@ -11,29 +11,63 @@ $menu_actif = 2;
 
 	<div class="container-fluid">
 
-		<div class="row bienvenue">
-	        <div class="col-md-12">
-	          <h2 class="text-center">Atelier<span>KM120.CYCLE</span></h2>
-	          <p class="sous-titre">Vous trouverez dans cette rubrique nos differents tarifs et forfaits</p>
-	        </div>
+		<div class="container">
+			<div class="row bienvenue">
+	      <div class="col-md-12">
+	       	<h2 class="text-center">L' atelier <span>KM120.CYCLE</span></h2>
+	       	<p class="sous-titre">Vous trouverez dans cette rubrique nos differents tarifs et forfaits</p>
+	      </div>
+      </div>
+
+   	<!-- Bidouille separateur de section -->
+			<div class="row">
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-wrench section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Notre expérience et notre savoir-faire</h3>
       	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
+    </div>
 
 		<div class="container">
-		    <div class="row">
-		      <div class="col-lg-offset-1 col-lg-5" id="texte_intro" >
-		        <p class="texte">Besoin d'une réparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
-		        et entretenir vos vélos et leurs donner une seconde vie !</p>
-		        
-		      </div>
-		      <div class="col-lg-offset-0.5 col-lg-5">
-		        <img id="photo" src="images/image_mecano.jpg" alt="atelier">
-		      </div>
-		    </div>
-		
 
+		    <div class="row">
+
+		  <div class="row" id="bloc1">
+		    <div class="col-lg-6" id="texte_intro" >
+		      <p class="texte">Besoin d'une reparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
+		      et entretenir vos vélos et leurs donner une seconde vie !</p>
+		    </div>
+
+		    
+		    <div class="col-lg-6">
+		      <img id="photo" src="images/image_mecano.jpg" alt="atelier">
+		    </div>
+		  </div>
+		
+			<!-- Bidouille separateur de section -->
+			<div class="row">
+				<div class="col-md-5"><hr></div>
+        <div class ="col-md-2 text-center">
+					<i class="fa fa-eur section-icone"></i>
+        </div>
+        <div class="col-md-5"><hr></div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12">
+      		<h3 class="text-center titre-section">Tarifs et forfaits</h3>
+      	</div>
+      </div>
+      <!-- Fin Bidouille separateur de section -->
 		
 		 	<div class="row">
-				<div class="panel-group col-lg-offset-1 col-lg-5 col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel-group col-lg-6 col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
 				  	<div class="panel panel-default">
 				    	<div class="panel-heading" role="tab" id="headingOne">
 				      		<h4 class="panel-title">
@@ -43,7 +77,7 @@ $menu_actif = 2;
 				      		</h4>
 				    	</div>
 				    	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-				     		<div class="panel-body" style="color: black;">
+				     		<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -88,7 +122,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos forfaits</th>
@@ -129,7 +163,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos forfaits</th>
@@ -162,7 +196,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos services Express</th>
@@ -213,7 +247,7 @@ $menu_actif = 2;
 
 			
 
-				<div class="panel-group col-lg-offset-0.5 col-lg-5 col-xs-12" id="accordion2" role="tablist" aria-multiselectable="true">
+				<div class="panel-group col-lg-6 col-xs-12" id="accordion2" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
 					    <div class="panel-heading" role="tab" id="headingFive">
 					    	<h4 class="panel-title">
@@ -223,7 +257,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -268,7 +302,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-					    	<div class="panel-body" style="color: black;">
+					    	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestation</th>
@@ -357,7 +391,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-					    	<div class="panel-body" style="color: black;">
+					    	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -422,7 +456,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-					        <div class="panel-body" style="color: black;">
+					        <div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
