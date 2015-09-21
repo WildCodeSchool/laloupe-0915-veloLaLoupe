@@ -29,6 +29,7 @@ $(document).ready(function() {
 		items: 4,
 		margin: 20,
 		autoplay: true,
+		dots: false,
 		autoplayTimeout: 3000,
 		loop: true
 	});
@@ -47,6 +48,8 @@ $(document).ready(function() {
     	pause: true,
     	interval: 4000
   	});
-
+  	jQuery(window).scroll(function(){
+    	jQuery('h2.titre-logo-on-scroll.hidden').removeClass('hidden');
+	});
 
 });

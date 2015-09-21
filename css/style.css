@@ -578,6 +578,25 @@ table{
   margin-top: 50px;
 }
 
+/* ----------------- Ventes -------------------*/
+
+.pieces-detachees
+{
+  width: 150px;
+  height: 150px;
+}
+
+.popover-content
+{
+  color: black;
+  text-align: center;
+}
+
+.popover-content ul
+{
+  list-style-type: none;
+}
+
 
 /* ----------------- Promotion -------------------*/
 
@@ -698,32 +717,33 @@ p.descriptif_photo {
 }
 
 
-/*** ALIGNED IMAGES ***/
-.aligned img {
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;
-    -ms-border-radius:4px;
-    -o-border-radius:4px;
-    border-radius:4px;
+.fiche-occasion {
+  margin-top: 20px;
 }
-.aligned {
-    float: left;
+  .fiche-occasion i, .fiche-occasion p {
+    margin-top: 10px;
+  }
+.titre-occasion {
+  color: #FFFF00;
+  margin-top: 0;
 }
-.aligned.right {
-    text-align: right;
+
+.descriptif p {
+  color: black;
 }
-.aligned.right img{
-  margin-left:15px;
+.descriptif img {
+  margin-top: 20px;
 }
-.aligned.left {
-    text-align:left;
+
+/*design des images dans accessoires*/
+.img-accesoires{
+  height: 200px;
+  width: auto;
 }
-.aligned.left img{
-  margin-right:15px;
+/*logo on scroll */
+h2.titre-logo-on-scroll {
+    font-size: 25px !important;
 }
-.aligned h5 {
-    color: #5D5D5D;
-    font-family: roboto;
-    font-size: 16px;
-    margin-bottom: 20px;
+.hidden{
+  display: none;
 }
