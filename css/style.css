@@ -597,6 +597,11 @@ margin-bottom: 50px;
   padding-right: 15px;
 }
 
+.cadre{
+border: 1px solid black;
+border-radius: 15px;
+background-color: white;
+}
 
 /*** produits PAGE /////////
 ///////////////////////////////// ***/

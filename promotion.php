@@ -21,76 +21,76 @@
 
 		<div id="bloc_promo">
 	      	<div class="row">
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      	</div>
-
-	      	<div class="row">
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
 	      	</div>
 
 	      	<div class="row">
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      	</div>
-
-	      	<div class="row">
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      		<div class="col-lg-3">
-	      			<img src="" alt="">
-	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
 	      	</div>
 
 	      	<div class="row">
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
-	      		<div class="col-lg-3">
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      	</div>
+
+	      	<div class="row">
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      	</div>
+
+	      	<div class="row">
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      		<div class="cadre" "col-lg-3">
+	      			<img src="" alt="">
+	      		</div>
+	      		<div class="cadre" "col-lg-3">
 	      			<img src="" alt="">
 	      		</div>
 	      	</div>
