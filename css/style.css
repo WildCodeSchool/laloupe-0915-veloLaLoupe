@@ -484,58 +484,59 @@ i.facebook {
 
 
 td, th{
-border: 1px solid black;
-padding: 20px 40px 20px 20px;
+  border: 1px solid black;
+  padding: 20px 40px 20px 20px;
+  color: #000;
 }
 
 th{
-text-align: center;
+  text-align: center;
 }
 
 table{
-width: 100%;
-margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .panel-title{
-text-align: center;
-font-size: 1.3em;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 
 #accordion, #accordion2 {
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 #photo{
-width: 100%;
-margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .colonne2{
-text-align: right;
-color: #D34545;
+  text-align: right;
+  color: #D34545;
 }
 
 .panel-heading{
-background-color: yellow;
+  background-color: yellow;
 }
 
 .droit{
-text-align: right;
+  text-align: right;
 }
 
 #texte_intro{
-padding: 130px;
-text-align: center;
+  padding: 130px;
+  text-align: center;
 }
 
 #bloc1{
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 /* ----------------- Promotion -------------------*/
 
 #bloc_promo{
-margin-top: 50px;
+  margin-top: 50px;
 }
