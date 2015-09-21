@@ -286,7 +286,37 @@
 	    		<h3 class="text-center titre-section">Pièces détachées</h3>
 	    	</div>
 	    </div>
-	    <!-- Fin Bidouille separateur de section -->
+	   	<!-- Fin Bidouille separateur de section -->
+	    	<div class="container">
+		    	<div class="row">
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" data-content="cadres et fourches">
+							<img src="images/cadre.jpg" alt="Cadre de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
+		    				data-content="pédaliers, leviers, dérailleurs avant, dérailleurs arrière, freins (à disque), plateaux, cassettes, chaînes">
+	  						<img src="images/pedalier.jpg" alt="Pédalier de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
+		    				data-content="roues, pneus, boyaux">
+	  						<img src="images/roue.jpg" alt="Roue de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
+		    				data-content="selles, potences, cintres, tiges de selle">
+	  						<img src="images/selle.jpg" alt="Selle de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+		    	</div>
+		    </div>
 		</div><!-- Fin .container -->
 		
 
@@ -304,7 +334,106 @@
       </div>
       <div class="row">
       	<div class="col-md-12">
-      		<h3 class="text-center titre-section">Accesoires</h3>
+      		<h3 class="text-center titre-section">Accessoires</h3>
+      		<div class="carouselVente">
+							<div class="item">
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded img-accesoires" />
+									<h4>Prolongateur de cintre vaclo</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-o" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 990</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire2.jpg" class="img-responsive img-rounded img-accesoires" />
+									<h4>Vélos de Routes</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 990</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire3.jpg" class="img-responsive img-rounded img-accesoires" />
+									<h4>Vélos Enfants / Juniors</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire4.jpg" class="img-responsive img-rounded img-accesoires" />
+									<h4>Vélos Tout Terrain</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire5.jpg" class="img-responsive img-rounded img-accesoires" />
+									<h4>VTC Trekking</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire6.jpg" class="img-responsive img-rounded img-accesoires" />
+									<h4>VTC Sport</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+						</div><!-- Fin .carouselVente -->
+					</div>
       	</div>
       </div>
       <!-- Fin Bidouille separateur de section -->
@@ -312,7 +441,7 @@
 				
 		
 	</div><!-- Fin .container-fluid -->
-	
+
 <?php
 	include('includes/footer.php');
 ?>	

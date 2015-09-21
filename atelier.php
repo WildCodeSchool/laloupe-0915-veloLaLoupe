@@ -36,12 +36,16 @@ $menu_actif = 2;
     </div>
 
 		<div class="container">
+
+		    <div class="row">
+
 		  <div class="row" id="bloc1">
 		    <div class="col-lg-6" id="texte_intro" >
 		      <p class="texte">Besoin d'une reparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
 		      et entretenir vos vélos et leurs donner une seconde vie !</p>
-		      
 		    </div>
+
+		    
 		    <div class="col-lg-6">
 		      <img id="photo" src="images/image_mecano.jpg" alt="atelier">
 		    </div>
@@ -73,7 +77,7 @@ $menu_actif = 2;
 				      		</h4>
 				    	</div>
 				    	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-				     		<div class="panel-body" style="color: black;">
+				     		<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -113,12 +117,12 @@ $menu_actif = 2;
 					    <div class="panel-heading" role="tab" id="headingTwo">
 					      	<h4 class="panel-title">
 					        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          	Reparations
+					          	Réparations
 					        	</a>
 					      	</h4>
 					    </div>
 					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos forfaits</th>
@@ -159,7 +163,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos forfaits</th>
@@ -170,11 +174,11 @@ $menu_actif = 2;
 						              <td class="colonne2">26.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Entretiens urbain / route</td>
+						              <td>Entretien urbain / route</td>
 						              <td class="colonne2">35.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Entretien competition</td>
+						              <td>Entretien compétition</td>
 						              <td class="colonne2">75.00€</td>
 						            </tr>
 					            </table>
@@ -192,7 +196,7 @@ $menu_actif = 2;
 					      	</h4>
 					    </div>
 					    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Nos services Express</th>
@@ -253,14 +257,14 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
-					      	<div class="panel-body" style="color: black;">
+					      	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
 						              <th>Prix</th>
 						            </tr>
 						            <tr>
-						              <td>Devoilage de roue</td>
+						              <td>Dévoilage de roue</td>
 						              <td class="colonne2">6.50€</td>
 						            </tr>
 						            <tr>
@@ -276,7 +280,7 @@ $menu_actif = 2;
 						              <td class="colonne2">10.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Reparation pneu tubeless</td>
+						              <td>Réparation pneu tubeless</td>
 						              <td class="colonne2">13.00€</td>
 						            </tr>
 						            <tr>
@@ -298,7 +302,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-					    	<div class="panel-body" style="color: black;">
+					    	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestation</th>
@@ -387,7 +391,7 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-					    	<div class="panel-body" style="color: black;">
+					    	<div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
@@ -452,18 +456,18 @@ $menu_actif = 2;
 					    	</h4>
 					    </div>
 					    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-					        <div class="panel-body" style="color: black;">
+					        <div class="panel-body">
 					        	<table>
 						            <tr>
 						              <th>Prestations</th>
 						              <th>Prix</th>
 						            </tr>
 						            <tr>
-						              <td>Changement 1 paire de paquettes de frein</td>
+						              <td>Changement 1 paire de plaquettes de frein</td>
 						              <td class="colonne2">6.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Changement 1 paire de patins de freins</td>
+						              <td>Changement 1 paire de patins de frein</td>
 						              <td class="colonne2">7.00€</td>
 						            </tr>
 						            <tr>
