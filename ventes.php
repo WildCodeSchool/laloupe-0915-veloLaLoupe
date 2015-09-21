@@ -222,6 +222,7 @@
 	    		<h3 class="text-center titre-section">Pièces détachées</h3>
 	    	</div>
 	    </div>
+	   	<!-- Fin Bidouille separateur de section -->
 	    	<div class="container">
 		    	<div class="row">
 		    		<div class="col-md-3">
@@ -252,7 +253,6 @@
 		    		</div>
 		    	</div>
 		    </div>
-	    <!-- Fin Bidouille separateur de section -->
 		</div><!-- Fin .container -->
 		
 
