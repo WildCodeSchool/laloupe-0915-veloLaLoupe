@@ -15,12 +15,12 @@
 
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr>
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr>
 				</div>
-	      <div class ="col-md-2 text-center">
+	      <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-bicycle section-icone"></i>
 	      </div>
-	      <div class="col-md-5"><hr></div>
+	      <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
 	    </div>
       <!-- Fin Bidouille separateur de section -->
 		</div><!-- Fin .container -->
@@ -39,13 +39,6 @@
 							<div class="item">
 									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
 									<h4>Vélos Urbains</h4>
-									<div class="votes">
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star-o" style="color: #ffff00;"></i>
-									</div>
 									<div class="produits-prix">
 										<span>A partir de</span>
 										<p>€ 990</p>
@@ -55,13 +48,6 @@
 							<div class="item">
 									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
 									<h4>Vélos de Routes</h4>
-									<div class="votes">
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
-									</div>
 									<div class="produits-prix">
 										<span>A partir de</span>
 										<p>€ 990</p>
@@ -71,13 +57,6 @@
 							<div class="item">
 									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
 									<h4>Vélos Enfants / Juniors</h4>
-									<div class="votes">
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
-									</div>
 									<div class="produits-prix">
 										<span>A partir de</span>
 										<p>€ 990</p>
@@ -87,13 +66,6 @@
 							<div class="item">
 									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
 									<h4>Vélos Tout Terrain</h4>
-									<div class="votes">
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
-									</div>
 									<div class="produits-prix">
 										<span>A partir de</span>
 										<p>€ 990</p>
@@ -103,13 +75,6 @@
 							<div class="item">
 									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
 									<h4>VTC Trekking</h4>
-									<div class="votes">
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
-									</div>
 									<div class="produits-prix">
 										<span>A partir de</span>
 										<p>€ 990</p>
@@ -119,13 +84,6 @@
 							<div class="item">
 									<img src="images/velo1.jpg" class="img-responsive img-rounded" />
 									<h4>VTC Sport</h4>
-									<div class="votes">
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star" style="color: #ffff00;"></i>
-										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
-									</div>
 									<div class="produits-prix">
 										<span>A partir de</span>
 										<p>€ 990</p>
@@ -141,12 +99,12 @@
 		<div class="container">
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr>
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr>
 				</div>
-	      <div class ="col-md-2 text-center">
+	      <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-cogs section-icone"></i>
 	      </div>
-	      <div class="col-md-5"><hr>
+	      <div class="col-md-5 col-sm-5 col-xs-5"><hr>
 	      </div>
 	    </div>
 	    <!-- Fin Bidouille separateur de section -->
@@ -161,7 +119,7 @@
 	    	</div>
 	    </div><!-- Fin .row -->
 	    <div class="row">
-	    	<div class="col-md-3">
+	    	<div class="col-md-3 col-sm-6 col-xs-12">
 	    		<div class="fiche-occasion">
 	    			<h4 class="titre-occasion text-center">Marque du velo</h4>
 						<img src="images/velo1.jpg" class="img-responsive" alt="">
@@ -213,7 +171,7 @@
 						</div><!-- /.modal -->
 					</div><!-- Fin .fiche-occasion -->
 				</div><!-- Fin .col -->
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 	    		<div class="fiche-occasion">
 	    			<h4 class="titre-occasion text-center">Marque du velo</h4>
 						<img src="images/velo1.jpg" class="img-responsive" alt="">
@@ -273,12 +231,12 @@
 		<div class="container">
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr>
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr>
 				</div>
-	      <div class ="col-md-2 text-center">
+	      <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-cogs section-icone"></i>
 	      </div>
-	      <div class="col-md-5"><hr>
+	      <div class="col-md-5 col-sm-5 col-xs-5"><hr>
 	      </div>
 	    </div>
 	    <div class="row">
@@ -289,27 +247,27 @@
 	   	<!-- Fin Bidouille separateur de section -->
 	    	<div class="container">
 		    	<div class="row">
-		    		<div class="col-md-3">
+		    		<div class="col-md-3 col-sm-6 col-xs-12">
 		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" data-content="cadres et fourches">
 							<img src="images/cadre.jpg" alt="Cadre de vélo" class="pieces-detachees" />
 						</button>
 		    		</div>
 
-		    		<div class="col-md-3">
+		    		<div class="col-md-3 col-sm-6 col-xs-12">
 		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
 		    				data-content="pédaliers, leviers, dérailleurs avant, dérailleurs arrière, freins (à disque), plateaux, cassettes, chaînes">
 	  						<img src="images/pedalier.jpg" alt="Pédalier de vélo" class="pieces-detachees" />
 						</button>
 		    		</div>
 
-		    		<div class="col-md-3">
+		    		<div class="col-md-3 col-sm-6 col-xs-12">
 		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
 		    				data-content="roues, pneus, boyaux">
 	  						<img src="images/roue.jpg" alt="Roue de vélo" class="pieces-detachees" />
 						</button>
 		    		</div>
 
-		    		<div class="col-md-3">
+		    		<div class="col-md-3 col-sm-6 col-xs-12">
 		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
 		    				data-content="selles, potences, cintres, tiges de selle">
 	  						<img src="images/selle.jpg" alt="Selle de vélo" class="pieces-detachees" />
@@ -324,12 +282,12 @@
 		<div class="container">
 			<!-- Bidouille separateur de section -->
 			<div class="row">
-				<div class="col-md-5"><hr>
+				<div class="col-md-5 col-sm-5 col-xs-5"><hr>
 				</div>
-        <div class ="col-md-2 text-center">
+        <div class ="col-md-2 col-sm-2 col-xs-2 text-center">
 					<i class="fa fa-plus-square-o section-icone"></i>
         </div>
-        <div class="col-md-5"><hr>
+        <div class="col-md-5 col-sm-5 col-xs-5"><hr>
         </div>
       </div>
       <div class="row">

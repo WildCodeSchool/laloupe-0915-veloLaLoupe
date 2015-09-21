@@ -51,12 +51,27 @@ $(document).ready(function() {
 	});
 
 	$('.carouselVente').owlCarousel({
-		items: 4,
 		margin: 20,
 		autoplay: false,
 		dots: false,
 		nav: true,
-		navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+		navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+		responsiveClass:true,
+    	responsive:{
+        	0:{
+            	items:1,
+        	},
+        	480:{
+            	items:2,
+        	},
+        	768:{
+        		items:3
+
+        	},
+        	992: {
+        		items:4
+        	}
+        }
 	});
 
 
