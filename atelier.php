@@ -40,13 +40,13 @@ $menu_actif = 2;
 		    <div class="row">
 
 		  <div class="row" id="bloc1">
-		    <div class="col-sm-6" id="texte_intro" >
+		    <div class="col-sm-6 col-xs-6" id="texte_intro" >
 		      <p class="texte">Besoin d'une reparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
 		      et entretenir vos vélos et leurs donner une seconde vie !</p>
 		    </div>
 
 		    
-		    <div class="col-sm-6">
+		    <div class="col-sm-6 col-xs-6">
 		      <img id="photo" src="images/image_mecano.jpg" alt="atelier">
 		    </div>
 		  </div>
@@ -60,14 +60,14 @@ $menu_actif = 2;
         <div class="col-md-5 col-sm-5 col-xs-5"><hr></div>
       </div>
       <div class="row">
-      	<div class="col-md-12">
+      	<div class="col-md-12 col-md-12 col-xs-12">
       		<h3 class="text-center titre-section">Tarifs et forfaits</h3>
       	</div>
       </div>
       <!-- Fin Bidouille separateur de section -->
 		
 		 	<div class="row">
-				<div class="panel-group col-lg-6 col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel-group col-lg-6 col-md-6 col-sm-6 col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
 				  	<div class="panel panel-default">
 				    	<div class="panel-heading" role="tab" id="headingOne">
 				      		<h4 class="panel-title">
@@ -247,7 +247,7 @@ $menu_actif = 2;
 
 			
 
-				<div class="panel-group col-lg-6 col-xs-12" id="accordion2" role="tablist" aria-multiselectable="true">
+				<div class="panel-group col-lg-6 col-md-6 col-sm-6 col-xs-12" id="accordion2" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
 					    <div class="panel-heading" role="tab" id="headingFive">
 					    	<h4 class="panel-title">
