@@ -47,6 +47,8 @@ $(document).ready(function() {
     	pause: true,
     	interval: 4000
   	});
-
+  	jQuery(window).scroll(function(){
+    	jQuery('h2.titre-logo-on-scroll.hidden').removeClass('hidden');
+	});
 
 });

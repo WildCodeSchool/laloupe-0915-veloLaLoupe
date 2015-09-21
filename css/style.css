@@ -723,3 +723,10 @@ background-color: white;
   height: 200px;
   width: auto;
 }
+/*logo on scroll */
+h2.titre-logo-on-scroll {
+    font-size: 25px !important;
+}
+.hidden{
+  display: none;
+}
