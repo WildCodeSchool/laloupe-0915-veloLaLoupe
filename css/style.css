@@ -717,3 +717,9 @@ background-color: white;
     font-size: 16px;
     margin-bottom: 20px;
 }
+
+/*design des images dans accessoires*/
+.img-accesoires{
+  height: 200px;
+  width: auto;
+}

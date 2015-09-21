@@ -273,7 +273,7 @@
       		<h3 class="text-center titre-section">Accessoires</h3>
       		<div class="carouselVente">
 							<div class="item">
-									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded img-accesoires" />
 									<h4>Prolongateur de cintre vaclo</h4>
 									<div class="votes">
 										<i class="fa fa-star" style="color: #ffff00;"></i>
@@ -289,7 +289,7 @@
 									</div>
 							</div>
 							<div class="item">
-									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<img src="images/accessoire2.jpg" class="img-responsive img-rounded img-accesoires" />
 									<h4>Vélos de Routes</h4>
 									<div class="votes">
 										<i class="fa fa-star" style="color: #ffff00;"></i>
@@ -305,7 +305,7 @@
 									</div>
 							</div>
 							<div class="item">
-									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<img src="images/accessoire3.jpg" class="img-responsive img-rounded img-accesoires" />
 									<h4>Vélos Enfants / Juniors</h4>
 									<div class="votes">
 										<i class="fa fa-star" style="color: #ffff00;"></i>
@@ -321,7 +321,7 @@
 									</div>
 							</div>
 							<div class="item">
-									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<img src="images/accessoire4.jpg" class="img-responsive img-rounded img-accesoires" />
 									<h4>Vélos Tout Terrain</h4>
 									<div class="votes">
 										<i class="fa fa-star" style="color: #ffff00;"></i>
@@ -337,7 +337,7 @@
 									</div>
 							</div>
 							<div class="item">
-									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<img src="images/accessoire5.jpg" class="img-responsive img-rounded img-accesoires" />
 									<h4>VTC Trekking</h4>
 									<div class="votes">
 										<i class="fa fa-star" style="color: #ffff00;"></i>
@@ -353,7 +353,7 @@
 									</div>
 							</div>
 							<div class="item">
-									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<img src="images/accessoire6.jpg" class="img-responsive img-rounded img-accesoires" />
 									<h4>VTC Sport</h4>
 									<div class="votes">
 										<i class="fa fa-star" style="color: #ffff00;"></i>
