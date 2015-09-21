@@ -117,7 +117,7 @@ $menu_actif = 2;
 					    <div class="panel-heading" role="tab" id="headingTwo">
 					      	<h4 class="panel-title">
 					        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          	Reparations
+					          	Réparations
 					        	</a>
 					      	</h4>
 					    </div>
@@ -174,11 +174,11 @@ $menu_actif = 2;
 						              <td class="colonne2">26.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Entretiens urbain / route</td>
+						              <td>Entretien urbain / route</td>
 						              <td class="colonne2">35.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Entretien competition</td>
+						              <td>Entretien compétition</td>
 						              <td class="colonne2">75.00€</td>
 						            </tr>
 					            </table>
@@ -264,7 +264,7 @@ $menu_actif = 2;
 						              <th>Prix</th>
 						            </tr>
 						            <tr>
-						              <td>Devoilage de roue</td>
+						              <td>Dévoilage de roue</td>
 						              <td class="colonne2">6.50€</td>
 						            </tr>
 						            <tr>
@@ -280,7 +280,7 @@ $menu_actif = 2;
 						              <td class="colonne2">10.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Reparation pneu tubeless</td>
+						              <td>Réparation pneu tubeless</td>
 						              <td class="colonne2">13.00€</td>
 						            </tr>
 						            <tr>
@@ -463,11 +463,11 @@ $menu_actif = 2;
 						              <th>Prix</th>
 						            </tr>
 						            <tr>
-						              <td>Changement 1 paire de paquettes de frein</td>
+						              <td>Changement 1 paire de plaquettes de frein</td>
 						              <td class="colonne2">6.00€</td>
 						            </tr>
 						            <tr>
-						              <td>Changement 1 paire de patins de freins</td>
+						              <td>Changement 1 paire de patins de frein</td>
 						              <td class="colonne2">7.00€</td>
 						            </tr>
 						            <tr>

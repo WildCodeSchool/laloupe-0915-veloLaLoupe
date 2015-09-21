@@ -91,7 +91,7 @@
 <!-- Fin Footer
 ================================================== -->
 
-<script src="js/jquery.js"></script>
+	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
@@ -103,6 +103,12 @@
 
     <script defer async
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrfLAPBUol_8Q1iqV1b5YnfG9xUJbIefA&callback=initMap">
+    </script>
+
+    <script>
+    	$(function () {
+  			$('[data-toggle="popover"]').popover()
+		})
     </script>
 
    </body>

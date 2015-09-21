@@ -581,6 +581,25 @@ margin-bottom: 50px;
   margin-top: 50px;
 }
 
+/* ----------------- Ventes -------------------*/
+
+.pieces-detachees
+{
+  width: 150px;
+  height: 150px;
+}
+
+.popover-content
+{
+  color: black;
+  text-align: center;
+}
+
+.popover-content ul
+{
+  list-style-type: none;
+}
+
 
 /* ----------------- Promotion -------------------*/
 
