@@ -222,6 +222,36 @@
 	    		<h3 class="text-center titre-section">Pièces détachées</h3>
 	    	</div>
 	    </div>
+	    	<div class="container">
+		    	<div class="row">
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" data-content="cadres et fourches">
+							<img src="images/cadre.jpg" alt="Cadre de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
+		    				data-content="pédaliers, leviers, dérailleurs avant, dérailleurs arrière, freins (à disque), plateaux, cassettes, chaînes">
+	  						<img src="images/pedalier.jpg" alt="Pédalier de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
+		    				data-content="roues, pneus, boyaux">
+	  						<img src="images/roue.jpg" alt="Roue de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+
+		    		<div class="col-md-3">
+		    			<button type="button" class="btn btn-default block-center" data-container="body" data-toggle="popover" data-placement="bottom" 
+		    				data-content="selles, potences, cintres, tiges de selle">
+	  						<img src="images/selle.jpg" alt="Selle de vélo" class="pieces-detachees" />
+						</button>
+		    		</div>
+		    	</div>
+		    </div>
 	    <!-- Fin Bidouille separateur de section -->
 		</div><!-- Fin .container -->
 		
@@ -248,7 +278,7 @@
 				
 		
 	</div><!-- Fin .container-fluid -->
-	
+
 <?php
 	include('includes/footer.php');
 ?>	

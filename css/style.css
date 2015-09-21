@@ -573,6 +573,25 @@ text-align: center;
 }
 
 
+/* ----------------- Ventes -------------------*/
+
+.pieces-detachees
+{
+  width: 150px;
+  height: 150px;
+}
+
+.popover-content
+{
+  color: black;
+  text-align: center;
+}
+
+.popover-content ul
+{
+  list-style-type: none;
+}
+
 
 /* ----------------- Promotion -------------------*/
 
