@@ -161,47 +161,111 @@
 	    	</div>
 	    </div><!-- Fin .row -->
 	    <div class="row">
-	    	<div class="col-md-6">
-					<div class="row wow fadeInRightBig">
-						<div class="col-md-4">
-							<ul class="gallery clearfix">
-								<li><a href="images/velo1.jpg" data-toggle="tooltip" href="#" title="Cliquez pour voir la galerie" rel="prettyPhoto[kuhn]"><img src="images/velo1.jpg" class="img-responsive" style="box-shadow: 2px 2px 5px black" alt="Epandeur kuhn" /></a></li>
-								<li><a href="images/occasions/kuhn_2.jpg" rel="prettyPhoto[kuhn]" alt="Epandeur kuhn"></a></li>
-								<li><a href="images/occasions/kuhn_3.jpg" rel="prettyPhoto[kuhn]" alt="Epandeur kuhn"></a></li>
-								<li><a href="images/occasions/kuhn_4.jpg" rel="prettyPhoto[kuhn]" alt="Epandeur kuhn"></a></li>
-							</ul>
+	    	<div class="col-md-3">
+	    		<div class="fiche-occasion">
+	    			<h4 class="titre-occasion text-center">Marque du velo</h4>
+						<img src="images/velo1.jpg" class="img-responsive" alt="">
+						<div class="row">
+							<div class="col-md-12">
+								<p>Prix : <b>1.800€ TTC</b></p>
+							</div>
 						</div>
-						<div class="project-content col-md-8">
-							<h4><span>Marque du velo</span></h4>
-							<p>Lorem Ipsum <b>1.800€ HT</b></p>
-							<h4><span>Détails</span></h4>
-							<ul>
-								<li><strong>Marque :</strong> Marque</li>
-								<li><strong>Modèle :</strong> MDS 1131</li>
-								<li><strong>Année :</strong> 1998</li>
-							</ul>
-								<!-- Bouton execution modal -->
-								<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-								  Voir la fiche produit
-								</button>
-								<!-- Modal -->
-								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								<div class="modal-dialog">
+						<!-- Bouton execution modal -->
+						<button class="btn btn-default btn-lg pull-right" data-toggle="modal" data-target="#myModal">Voir la fiche produit</button>
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
 								<div class="modal-content">
-								<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-								</div>
-								<div class="modal-body">
-								Exemple de modal
-								</div>
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title" id="myModalLabel">Mon vélo a vendre</h4>
+									</div>
+									<div class="modal-body descriptif">
+										<div class="row">
+											<div class="col-md-5">
+												<img src="images/velo1.jpg" class="img-responsive" alt="">
+											</div>
+											<div class="col-md-7">
+												<h4>Descriptif :</h4>
+													<p>
+														Etat : Neuf<br />
+														Famille-Produit : VTT<br />
+														Couleur : Rouge / Noir / Blanc<br />
+														Matière : Carbone<br />
+														Poids : 8kg<br />
+														Mise en circulation : 06/2011
+													</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<p>A vendre vélo en carbone en très bon état et très bien entretenu. Vendu sans pédale, avec 2 porte-bidon 
+													elite custom race noir. Monté sur plateau 50/36, je vends avec les plateaux de 46 et 34 compris dans le prix (développement 
+													minimes et cadets pour ceux qui font de la compétition) + monté avec cassette 14-28 et 14-25.</p>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+        						<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      						</div>
 								</div><!-- /.modal-content -->
-								</div><!-- /.modal-dialog -->
-								</div><!-- /.modal -->
+							</div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+					</div><!-- Fin .fiche-occasion -->
+				</div><!-- Fin .col -->
+				<div class="col-md-3">
+	    		<div class="fiche-occasion">
+	    			<h4 class="titre-occasion text-center">Marque du velo</h4>
+						<img src="images/velo1.jpg" class="img-responsive" alt="">
+						<div class="row">
+							<div class="col-md-12">
+								<p>Prix : <b>1.800€ TTC</b></p>
+							</div>
 						</div>
-					<!-- End Project Content -->
-				</div><!-- .row -->
-			</div>
+						<!-- Bouton execution modal -->
+						<button class="btn btn-default btn-lg pull-right" data-toggle="modal" data-target="#myModal">Voir la fiche produit</button>
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title" id="myModalLabel">Mon vélo a vendre</h4>
+									</div>
+									<div class="modal-body descriptif">
+										<div class="row">
+											<div class="col-md-5">
+												<img src="images/velo1.jpg" class="img-responsive" alt="">
+											</div>
+											<div class="col-md-7">
+												<h4>Descriptif :</h4>
+													<p>
+														Etat : Neuf<br />
+														Famille-Produit : VTT<br />
+														Couleur : Rouge / Noir / Blanc<br />
+														Matière : Carbone<br />
+														Poids : 8kg<br />
+														Mise en circulation : 06/2011
+													</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<p>A vendre vélo en carbone en très bon état et très bien entretenu. Vendu sans pédale, avec 2 porte-bidon 
+													elite custom race noir. Monté sur plateau 50/36, je vends avec les plateaux de 46 et 34 compris dans le prix (développement 
+													minimes et cadets pour ceux qui font de la compétition) + monté avec cassette 14-28 et 14-25.</p>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+        						<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      						</div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+					</div><!-- Fin .fiche-occasion -->
+				</div><!-- Fin .col -->
+			</div><!-- Fin .row -->
 		</div><!-- Fin .container -->
 
 		
