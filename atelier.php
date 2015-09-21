@@ -21,7 +21,7 @@ $menu_actif = 2;
 		<div class="container">
 		    <div class="row">
 		      <div class="col-lg-offset-1 col-lg-5" id="texte_intro" >
-		        <p class="texte">Besoin d'une reparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
+		        <p class="texte">Besoin d'une réparation ou d'une customisation ? Nous vous proposons un ensemble de prestation pouvant répondre à vos besoins. Nous pouvons réparer, modifier
 		        et entretenir vos vélos et leurs donner une seconde vie !</p>
 		        
 		      </div>
