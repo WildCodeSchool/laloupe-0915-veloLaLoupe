@@ -240,7 +240,106 @@
       </div>
       <div class="row">
       	<div class="col-md-12">
-      		<h3 class="text-center titre-section">Accesoires</h3>
+      		<h3 class="text-center titre-section">Accessoires</h3>
+      		<div class="carouselVente">
+							<div class="item">
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<h4>Prolongateur de cintre vaclo</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-o" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 990</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<h4>Vélos de Routes</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 990</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<h4>Vélos Enfants / Juniors</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<h4>Vélos Tout Terrain</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<h4>VTC Trekking</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+							<div class="item">
+									<img src="images/accessoire1.jpg" class="img-responsive img-rounded" />
+									<h4>VTC Sport</h4>
+									<div class="votes">
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star" style="color: #ffff00;"></i>
+										<i class="fa fa-star-empty" style="color: #ffff00;"></i>
+									</div>
+									<div class="produits-prix">
+										<span>A partir de</span>
+										<p>€ 90</p>
+										<a href="contact.php" title="">En savoir +</a>
+									</div>
+							</div>
+						</div><!-- Fin .carouselVente -->
+					</div>
       	</div>
       </div>
       <!-- Fin Bidouille separateur de section -->
