@@ -107,7 +107,7 @@
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div id="map" style="width: 100%; height: 450px;"></div>
 					</div>
-					<div class="col-sm-12">
+					<div class="col-sm-6">
 
             <div class="row liste-icones">
               <div class="col-sm-12 text-center">
