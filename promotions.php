@@ -22,23 +22,23 @@
 			<div id="bloc_promo">
 		      	<div class="row">
 
-		      		<div class="cadre col-lg-3" >
-		      			<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12" >
+		      			<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 		      			<p class="descriptif_photo">Descriptif de la promotion</p>
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
  
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 		      	</div>
@@ -46,23 +46,23 @@
 		      							<!-- ----- 2eme ligne ----- -->
 		      	<div class="row">
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
@@ -72,23 +72,23 @@
 		      							<!-- ----- 3eme ligne ----- -->
 		      	<div class="row">
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
@@ -98,23 +98,23 @@
 		      							<!-- ----- 4eme ligne ----- -->
 		      	<div class="row">
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>		      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
@@ -122,32 +122,31 @@
 
 
 		      							<!-- ----- 5eme ligne ----- -->
-		      	<div class="row">
+		      	<div class="row" id="fin">
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
-		      		<div class="cadre col-lg-3">
-			      		<img src="images/promo.jpeg" alt="photo_promotion" class="photo_promo">
+		      		<div class="cadre col-md-3 col-xs-12">
+			      		<img src="images/promo.jpeg" alt="photo_promotion" class="img-responsive">
 			      		<p class="descriptif_photo">Descriptif de la promotion</p>	      			
 		      		</div>
 
 		      	</div>
 		    </div>
 		</div>
-
 <?php
 
     include('includes/footer.php');
